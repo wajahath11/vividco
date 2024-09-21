@@ -1,0 +1,456 @@
+/*
+Template Name: Law Firm
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************center_home****************/
+.fade-carousel {
+    position: relative;
+    min-height: 600px;
+}
+.fade-carousel .carousel-inner .item {
+    min-height: 600px;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 4px;
+    opacity: .8;
+}
+.fade-carousel .carousel-indicators > li.active {
+  opacity: 1;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+position: absolute;
+width:100%;
+top: 49%;
+left:50%;
+padding:15px 15px 27px 15px;
+z-index: 2;
+text-transform:capitalize;
+text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+-webkit-transform: translate3d(-50%,-50%,0);
+-moz-transform: translate3d(-50%,-50%,0);
+-ms-transform: translate3d(-50%,-50%,0);
+-o-transform: translate3d(-50%,-50%,0);
+transform: translate3d(-50%,-50%,0);
+text-align:center;
+}
+
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: 2;
+opacity: 1;
+background:#33333385;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  min-height: 600px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+background-image: url(../img/4.jpg);
+}
+.fade-carousel .slides .slide-2 {
+background-image: url(../img/99.gif);
+}
+.fade-carousel .slides .slide-3 {
+background-image: url(../img/1.jpg);
+}
+#center .carousel-indicators{
+  bottom:10px;
+  }
+.fade-carousel .carousel-indicators > li{
+      background: #fff;
+	  border-color: #fff;
+	  width:15px;
+	  height:15px;
+  }
+.fade-carousel .carousel-indicators > li.active{
+      width:15px;
+	  height:15px;
+	  background:#af8c5d;
+	  border-color:#af8c5d;
+  }
+.hero h3:before {
+    display: inline-block;
+    width: 5%;
+    height: 2px;
+    background-color: #af8c5d;
+    vertical-align: middle;
+    content: "";
+	margin-right:10px;
+}
+.hero h3:after {
+    display: inline-block;
+    width: 5%;
+    height: 2px;
+    background-color: #af8c5d;
+    vertical-align: middle;
+    content: "";
+	margin-left:10px;
+}
+/*********************center_home_end****************/
+
+/*********************about_box****************/
+#about_box{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.about_h1i span{
+font-size:50px;
+color: #af8c5d;
+ }
+.about_h1i{
+border:1px solid #cca87629;
+padding:40px 40px 45px 40px;
+ }
+.about_h1i:hover{
+border-color:#af8c5d;
+ }
+/*********************about_box_end****************/
+
+/*********************about_h_end****************/
+#about_h{
+background-image: url(../img/.jpg);
+background-position:center;
+margin-top:50px;
+margin-bottom:50px;
+ }
+.about_hm1{
+background: #2b2f40;
+padding:80px 40px;
+width:90%;
+margin:auto;
+margin-top:-50px;
+margin-bottom:-50px;
+ }
+.about_hm1l h6:before {
+display: inline-block;
+width: 5%;
+height: 2px;
+background-color: #af8c5d;
+vertical-align: middle;
+content: "";
+margin-right:10px;
+}
+.about_hm1l{
+border-left:5px solid #999; 
+padding-left:30px;
+padding-right:30px;
+ }
+/*********************about_h_end****************/
+
+/*********************team_h****************/
+#team_h{
+padding-top:40px;
+padding-bottom:60px; 
+ }
+.team_h1i2 h6{
+margin-top:10px; 
+ }
+.team_h1i2 h6 i{
+margin-right:5px; 
+ }
+.team_h1i{
+position:relative; 
+ }
+.team_h1i2{
+position:absolute; 
+background:#333333c2;
+width:100%;
+height:100%;
+top:0;
+padding-top:145px;
+display:none;
+ }
+.team_h1i:hover .team_h1i2{
+display:block; 
+ }
+.team_h1i3{
+position:absolute; 
+background:#af8c5d;
+width:80%;
+padding:15px;
+left:10%;
+bottom:-6%;
+ }
+.team_h1in{
+padding-top:40px; 
+ }
+/*********************team_h_end****************/
+
+/*********************prog_h****************/
+#prog_h {
+background-image: url(../img/9.jpg);
+ background-attachment:fixed;
+ background-position:center;
+}
+.prog_m{
+ padding-top:100px;
+ padding-bottom:100px;
+ background:#000000c2;
+  }
+.prog_1i span i{
+font-size:60px; 
+color:#af8c5d; 
+  }
+.prog_1i h1{
+ color:#fff; 
+  }
+.prog_1i h5{
+ color:#fff; 
+  }
+/*********************prog_h_end****************/
+
+/*********************faq****************/
+#faq{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.panel-heading span {
+margin-top: -20px;
+font-size: 15px;
+}
+.ques .panel-heading{
+background:#af8c5d;
+color:#fff;
+padding:30px 15px;
+border-color:#cca87629;
+border-bottom:none;
+ }
+.ques .panel-heading h5{
+ font-size:18px;
+ font-weight:bold;
+ }
+.ques .panel-body{
+ font-size:16px;
+ font-family: 'Alata', sans-serif;
+ }
+.ques .panel-success{
+ border-color:#cca87629;
+ }
+.faq_2{
+margin-top:30px; 
+ }
+.history_2 {
+background: #cca87629;
+margin-top: 30px;
+padding-top: 40px;
+padding-bottom: 40px;
+margin-left: 15px;
+margin-right: 15px;
+}
+.history_2i {
+border-right: 1px solid #cca87629;
+}
+/*********************faq_end****************/
+
+/*********************testm_h****************/
+#testm_h{
+padding-top:40px;
+padding-bottom:40px; 
+background:#cca87629;
+ }
+.testm_hi .span_1{
+display:block;
+margin-bottom:15px;
+font-size:40px; 
+ }
+.offer_2i {
+background: #fff;
+padding: 40px 20px;
+margin-top:10px;
+}
+.offer_2i span {
+background: #af8c5d;
+color: #fff;
+width: 80px;
+height: 80px;
+line-height: 72px;
+display: inline-block;
+font-size: 30px;
+text-align: center;
+border-radius: 50%;
+border: 3px solid #af8c5d;
+}
+.offer_2i span:hover {
+background: none;
+color: #af8c5d;
+}
+/*********************testm_h_end****************/
+
+/*********************consult****************/
+#consult{
+padding-top:40px; 
+padding-bottom:40px;
+ }
+.consult_1l{
+background:#cca87629;
+padding:40px 40px 45px 40px;
+min-height:530px; 
+ }
+.consult_1l .form-control{
+height:50px;
+margin-top:20px;
+box-shadow:none;
+font-size:16px; 
+border:none;
+ }
+.consult_1l .form_1{
+ height:150px;
+ }
+.testm_hi .span_1{
+display:block;
+margin-bottom:15px;
+font-size:40px; 
+ }
+/*********************consult_end****************/
+
+/*********************blog_h****************/
+#blog_h{
+padding-top:40px;
+padding-bottom:40px;
+background:#cca87629;
+}
+.blog_h_1i h6 {
+font-size:14px;
+}
+.blog_h_1i h6 a{
+margin-right:5px;
+color:#999!important;
+font-size:12px;
+}
+.blog_h_1i h6 a i{
+margin-right:5px;
+}
+.blog_h_1i {
+background:#fff;
+padding:15px;
+margin-top:30px;
+}
+.blog_h_1i h5 {
+font-size:20px;
+}
+/*********************blog_h_end****************/
+
+@media screen and (max-width : 767px){
+.hero h1{
+font-size:36px; 
+ }
+.hero h3{
+font-size:26px; 
+ }
+.about_h1i {
+margin-top:10px; 
+ }
+.about_hm1 {
+padding: 10px 10px;
+text-align:center;
+}
+.about_hm1r {
+margin-top:10px; 
+ }
+.team_h1i {
+margin-top:60px; 
+ }
+.team_h1in {
+ margin-top:20px;
+ }
+.prog_1i {
+margin-top:15px; 
+ }
+.faq_2l {
+ margin-bottom:15px;
+ }
+.history_2i {
+border:none;
+margin-top:15px; 
+ }
+.consult_1l {
+padding: 40px 15px 45px 15px;
+margin-top:15px;
+text-align:center;
+}
+.blog_h_1i {
+text-align:center; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.hero br{
+display:none; 
+ }
+.about_hm1r img{
+min-height:300px; 
+ }
+.team_h1i1 img{
+min-height:360px; 
+ }
+.team_h1i3{
+padding:8px;
+width:95%;
+left:2%; 
+ }
+.team_h1in  .button{
+padding:10px 15px; 
+ }
+.faq_2l  img{
+min-height:600px; 
+ }
+.consult_1r img{
+min-height:600px;  
+ }
+#blog_h  .button{
+padding:10px 15px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.team_h1i1 img{
+min-height:360px; 
+ }
+.consult_1r img{
+min-height:600px;  
+ }
+  }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }

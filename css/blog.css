@@ -1,0 +1,48 @@
+/*
+Template Name: Law Firm
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************blog****************/
+#blog{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.blog_1{
+width:85%;
+margin-left:auto;
+margin-right:auto; 
+margin-top:50px; 
+ }
+.blog_2{
+width:85%;
+margin-left:auto;
+margin-right:auto;
+margin-top:30px; 
+ }
+.blog_2r h6 .span_1{
+margin-right:20px;
+ }
+.blog_2r h6 i{
+margin-right:5px;
+ }
+/*********************blog_end****************/
+
+
+@media screen and (max-width : 767px){
+#blog{
+text-align:center; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+  }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }

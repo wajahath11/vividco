@@ -1,0 +1,85 @@
+/*
+Template Name: Law Firm
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************about****************/
+#about{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.about_1r .progress-bar {
+background: #af8c5d;
+}
+.about_1r .progress {
+margin-top:15px;
+height:10px;
+border-radius:0;
+}
+#team_h{
+padding-top:40px;
+padding-bottom:60px; 
+background:#cca87629;
+ }
+#work_plan{
+padding-top:30px;
+padding-bottom:40px;
+}
+.work_plan{
+margin-top:30px;
+  }
+.work_plan_inner span{
+color: #af8c5d;
+font-weight:bold;
+font-size:40px;
+}
+.work_plan_inner h3 a{
+color:#000;
+font-size:24px;
+}
+.work_plan_inner:hover h3 a{
+color:#af8c5d;
+}
+.work_plan_inner:hover span{
+color:#000;
+}
+.work_plan_inner p{
+color:#666;
+}
+
+.about_o_1r p i{
+margin-right:5px;
+font-size:10px; 
+ }
+#about_o{
+padding-top:40px;
+padding-bottom:40px;
+background:#cca87629; 
+ }
+.about_o_1l img{
+height:420px!important; 
+ }
+/*********************about_end****************/
+
+
+@media screen and (max-width : 767px){
+.about_1l {
+text-align:center; 
+ }
+.about_o_1r {
+margin-top:15px;
+text-align:center; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+  }
+@media (min-width:1201px) and (max-width:1350px) {
+
+ }
