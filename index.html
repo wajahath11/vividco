@@ -3,17 +3,39 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>VividCo</title>
+    <meta name="description" content="VividCo - Leading software company specializing in web development, digital marketing, SaaS products, app development, SEO services, and data analysis. Transform your business with our innovative IT solutions.">
+    <meta name="keywords" content="web development, digital marketing, SaaS, app development, SEO services, data analysis, IT solutions, software company, artificial intelligence, ai">
+    <title>VividCo - Innovative IT Solutions & Software Development</title>
+
+    <!-- Preload critical assets -->
+    <link rel="preload" href="css/bootstrap.min.css" as="style">
+    <link rel="preload" href="css/global.css" as="style">
+    <link rel="preload" href="css/index.css" as="style">
+    <link rel="preload" href="js/jquery-2.1.1.min.js" as="script">
+    <link rel="preload" href="js/bootstrap.min.js" as="script">
+
+    <!-- Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
-    <script src="js/jquery-2.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="VividCo - Innovative IT Solutions">
+    <meta property="og:description" content="Transform your business with our cutting-edge IT solutions. Specializing in web development, digital marketing, SaaS products, and more.">
+    <meta property="og:image" content="img/logo.png">
+    <meta property="og:url" content="https://www.vividco.in">
+
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VividCo - Innovative IT Solutions">
+    <meta name="twitter:description" content="Transform your business with our cutting-edge IT solutions. Web development, digital marketing, SaaS products, and more.">
+    <meta name="twitter:image" content="img/logo.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 
 <body>
@@ -657,6 +679,9 @@
     </div>
 </section>
 
+    <!-- Scripts loaded with defer attribute -->
+    <script src="js/jquery-2.1.1.min.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
 
 <script>
     $(document).ready(function () {
