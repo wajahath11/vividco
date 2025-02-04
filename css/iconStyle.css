@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot');
+  src: url('../fonts/icomoon.eot#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../images/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-simplifiedSolution:before {
+  content: "\e910";
+  color: #220047;
+}
+
+.icon-responsibleAI:before {
+  content: "\e911";
+  color: #220047;
+}
+
+.icon-elevatedExperiences:before {
+  content: "\e912";
+  color: #220047;
+}
+
+.icon-empoweringClients:before {
+  content: "\e913";
+  color: #220047;
+}
+
+.icon-speedyResult:before {
+  content: "\e914";
+  color: #220047;
+}
+
+.icon-hamburger:before {
+  content: "\e90f";
+  color: #220047;
+}
+
+.icon-filterSort:before {
+  content: "\e90e";
+  color: #26004a;
+}
+
+.icon-prevIcon:before {
+  content: "\e90a";
+  color: #26004a;
+}
+
+.icon-instagram:before {
+  content: "\e902";
+}
+
+.icon-youtube:before {
+  content: "\e904";
+}
+
+.icon-ArrowForward:before {
+  content: "\e907";
+  color: #26004a;
+}
+
+.icon-searchIcon:before {
+  content: "\e90d";
+  color: #26004a;
+}
+
+.icon-Twitter:before {
+  content: "\e901";
+}
+
+.icon-linkedin:before {
+  content: "\e90c";
+  color: #220047;
+}
+
+.icon-smallLogo:before {
+  content: "\e90b";
+  color: #220047;
+}
+
+.icon-expandMore:before {
+  content: "\e909";
+  color: #220047;
+}
+
+.icon-facebookInc:before {
+  content: "\e900";
+}
+
+.icon-linkedInInc:before {
+  content: "\e903";
+}
+
+.icon-collapseIcon:before {
+  content: "\e905";
+  color: #220047;
+}
+
+.icon-expandIcon:before {
+  content: "\e906";
+  color: #220047;
+}
+
+.icon-ArrowDown:before {
+  content: "\e908";
+  color: #5c7777;
+}

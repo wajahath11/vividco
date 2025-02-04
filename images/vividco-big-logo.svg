@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="782" height="150" viewBox="0 0 782 150">
+    <!-- Background for "Vivid" -->
+    <rect x="2%" y="2%" width="700" height="150" fill="#220047" rx="15" ry="15" />
+
+    <rect x="1%" y="1%" width="450" height="150" fill="#FFA191" rx="15" ry="15"/>
+
+    <!-- Text "Vivid" -->
+    <text x="30%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="175"
+          font-weight="700" height="200" width="400" fill="#220047">
+        Vivid
+    </text> 
+    
+    <!-- Text "Co" -->
+    <text x="75%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="175" 
+    font-weight="700" fill="#FFA191">
+        Co
+    </text>
+</svg>

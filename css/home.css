@@ -1,0 +1,958 @@
+.homepageBannerSection {
+  background-image: url("../images/homeBanner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 760px;
+  padding-top: 191px;
+  background-color: transparent;
+  position: relative;
+}
+
+.latestUpdateWrap {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 396px;
+  max-width: 396px;
+  height: 105px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 64px;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.bannerThumbnailWrap img {
+  width: 65px;
+  height: 65px;
+  border-radius: 3px;
+  margin-right: 22px;
+}
+
+.homepageBannerSection .latestUpdateDetails p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+.homepageBannerSection .latestUpdateDetails p a {
+  color: #220047;
+}
+
+.latestUpdateDetails .slick-slide,
+.latestUpdateDetails .slick-slider,
+.homeHearFromUs .slick-slider {
+  padding: 0;
+}
+
+.latestUpdateWrap .slide {
+  display: flex;
+  padding: 20px;
+}
+
+.latestUpdateDetails .autoplay {
+  width: 396px;
+  max-height: 105px;
+}
+
+.latestUpdateDetails .autoplay button.slick-next,
+.latestUpdateDetails .autoplay button.slick-prev {
+  display: none !important;
+}
+
+.homeHearFromUs .slick-slider .col-md-4 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.latestUpdateDetails label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #331D2C;
+}
+
+.homepageBannerSection h1 {
+  text-align: left;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.homepageBannerSection .linkwithIcon:hover,
+.homepageBannerSection .linkwithIcon:hover i::before {
+  color: #191970;
+}
+
+.homepageBannerSection p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #331D2C;
+  max-width: 53%;
+  margin-bottom: 20px;
+}
+
+.homeOurServicesSection h3 {
+  max-width: 100% !important;
+}
+
+.homeOurServicesSection .sectionLabel {
+  margin-bottom: 16px;
+}
+
+.homeOurServicesSection {
+  padding-bottom: 96px;
+  padding-top: 96px;
+}
+
+.homeOurPlatformSection .featuredWrapper {
+  padding: 0;
+}
+
+.homeOurPlatformSection .borderBeforeAfter::after,
+.homeOurPlatformSection .borderBeforeAfter::before,
+.homeOurPlatformSection .featuredDescription::after,
+.homeOurPlatformSection .featuredDescription:before {
+  border-color: #331D2C !important;
+}
+
+.homeOurPlatformSection .featuredImg::after {
+  border-right: 1px solid #331D2C;
+  border-left: 0;
+}
+
+.homeOurPlatformSection {
+  color: #331D2C;
+  padding-bottom: 96px;
+}
+
+.sectionHeadingH4 {
+  font-family: "Graphik Compact Web", sans-serif;
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 68px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 16px;
+  color: #331D2C;
+}
+
+.homeOurPlatformSection .featuredImg {
+  padding: 40px 35px;
+}
+
+.ourLatestnewsInsightsSection .container {
+  position: relative;
+}
+
+.homeHearFromUs img {
+  border-radius: 10px;
+  /* max-height: 464px; */
+}
+
+.homeOurPlatformSection .featuredImg img {
+  max-width: 600px;
+  max-height: 367px;
+  width: 100%;
+}
+
+.homeHearFromUs.hearFromUs .purpleBg,
+.ourLatestnewsInsightsSection {
+  background-color: #331D2C;
+  padding: 16px;
+}
+
+.homeHearFromUs.hearFromUs .purpleBg {
+  padding: 16px 0;
+}
+
+.homeHearFromUs.hearFromUs .purpleBg {
+  min-height: 430px;
+  border-radius: 4px;
+}
+
+.homeHearFromUs.hearFromUs .leftSection {
+  position: relative;
+  height: 100%;
+  /* padding-top: 40px; */
+  padding: 40px 41px 40px;
+}
+
+.ourLatestnewsInsightsSection {
+  position: relative;
+}
+
+.homeHearFromUs .autoplay button,
+.homeHearFromUs .slider button {
+  bottom: -95px;
+}
+
+.homeHearFromUs .autoplay button.slick-next {
+  margin-left: 0 !important;
+}
+
+.homeHearFromUs .linkedIn i::before {
+  color: #fff;
+}
+
+.homeHearFromUs .linkedIn {
+  margin-left: 16px;
+}
+
+.homeHearFromUs .autoplay button.slick-prev {
+  left: -16px !important;
+}
+
+.homeHearFromUs .autoplay button {
+  bottom: 0;
+  margin-bottom: -110px;
+  left: 40px !important;
+}
+
+.homeHearFromUs.ourExpertiseSection h6 {
+  color: #fff !important;
+  max-width: 100%;
+  /* margin-right: 64px;
+  margin-bottom: 48px; */
+  padding-bottom: 139px;
+}
+
+.homeHearFromUs .slick-slider {
+  padding-bottom: 0;
+  position: relative;
+}
+
+.homeHearFromUs .sectionLabel {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.homeHearFromUs .authorName {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+}
+
+.homeHearFromUs .sectionDescription {
+  color: #fff !important;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.authorDesignation {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.homeHearFromUs.ourExpertiseSection {
+  padding: 0 0 144px;
+}
+
+.homeHearFromUs.ourExpertiseSection .authorImage {
+  padding: 40px 40px 40px 0;
+}
+
+.ourImpactIndustriesSection {
+  color: #331D2C;
+  padding: 96px 0 32px;
+  background-color: #c9def4;
+}
+
+.ourImpactIndustriesSection h4 {
+  margin-bottom: 92px;
+  margin-left: -2px;
+}
+
+.industryDetails .industryName {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.industryDetails p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 24px;
+  max-width: 438px;
+}
+
+.industryDetails {
+  margin-bottom: 64px;
+  max-width: 438px;
+  width: 50%;
+}
+
+.ourLatestnewsInsightsSection {
+  padding: 62px 0;
+}
+
+.ourLatestnewsInsightsSection .sectionLabel {
+  margin-bottom: 32px;
+}
+
+.whyChooseUsSection h4 {
+  margin-bottom: 80px;
+}
+
+.whyChooseUsSection {
+  padding: 96px 0 16px;
+  color: #331D2C;
+}
+
+.aboutInfoWrap span {
+  font-weight: 500;
+}
+
+.aboutInfoWrap {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.whyChooseUsSection img {
+  margin-right: 12px;
+  margin-top: 3px;
+  width: 24px;
+}
+.whyChooseUsSection.genAiWorkShop img {
+  display: block;
+  height: 65px;
+  width: 65px;
+  margin: 0 auto 10px;
+  margin-bottom: 16px;
+
+}
+.whyChooseUsSection.genAiWorkShop .aboutInfoWrap {
+  text-align: center;
+}
+.ourImpactMainContentWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.whyChooseUsSection i {
+  margin-top: 3px;
+}
+
+.whyChooseUsSection .col-12 {
+  margin-bottom: 80px;
+}
+
+.joinUsSection {
+  background-color: #ffa191;
+  padding: 112px 0 184px;
+  color: #331D2C;
+}
+
+.joinUsSection .sectionLabel {
+  margin-bottom: 16px;
+}
+
+.joinUsSection .sectionHeadingH4 {
+  margin-bottom: 24px;
+  margin-right: 40px;
+}
+
+.joinUsSection img {
+  width: 100%;
+  max-width: 553px;
+  max-height: 573px;
+  border-radius: 10px;
+}
+
+.checkoutNote {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.viewCareersBtn {
+  background-color: #331D2C;
+  color: #fff;
+}
+
+.headingWrapper {
+  margin-bottom: 64px;
+}
+
+.homeOurImpactSection {
+  padding-bottom: 120px;
+}
+
+.homeOurImpactSection .caseStudyListWrapper .linkwithIcon {
+  bottom: 0;
+}
+
+.ourLatestnewsInsightsSection img {
+  max-height: 480px;
+  width: 100%;
+}
+
+.ourLatestnewsInsightsSection .slick-slide {
+  padding: 0;
+}
+
+.purpleSection .slider__counter {
+  color: #fff;
+  bottom: 12px;
+}
+
+.readWhitePaperWrap a,
+.readWhitePaperWrap .icon-ArrowForward:before {
+  color: #fff;
+}
+
+.readWhitePaperWrap a:hover,
+.readWhitePaperWrap a:hover .icon-ArrowForward:before {
+  color: #ffa191 !important;
+}
+
+.readWhitePaperWrap {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+}
+
+.ourLatestnewsInsightsSection .autoplay button {
+  left: 0;
+}
+
+.sectionHeadingH4 + p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #331D2C;
+  margin-bottom: 48px;
+}
+
+.homeOurImpactSection .caseStudyListWrapper .col-md-4 {
+  /* min-height: 505px; */
+}
+
+.homeHearFromUs .slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .homepageBannerSection {
+    background-position: 66% 18%;
+    padding-top: 104px;
+    max-height: 750px;
+  }
+
+  .ourImpactMainContentWrapper {
+    flex-direction: column;
+  }
+
+  .homeOurImpactSection {
+    padding-bottom: 72px;
+  }
+
+  .homeOurImpactSection .caseStudyListWrapper .col-md-4 {
+    /* min-height: 445px; */
+    position: relative;
+  }
+
+  .homeHearFromUs.ourExpertiseSection h6 {
+    /* margin-right: 16px; */
+  }
+
+  .homeHearFromUs.hearFromUs .leftSection {
+    padding-right: 10px;
+  }
+
+  .homeHearFromUs img {
+    /* max-height: 321px; */
+  }
+
+  .homeOurServicesSection {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .homepageBannerSection h3 {
+    margin: 0 0 20px;
+    max-width: 93%;
+  }
+
+  .homeOurPlatformSection .featuredImg {
+    padding: 20px;
+  }
+
+  .sectionHeadingH4 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .homeOurPlatformSection .featuredLabel {
+    padding: 24px 16px;
+  }
+
+  .homeOurPlatformSection {
+    padding-bottom: 64px;
+  }
+
+  .homeHearFromUs .ourExpertiseSection h6 {
+    line-height: 24px;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .ourImpactIndustriesSection {
+    padding: 56px 0 32px;
+  }
+
+  .homepageBannerSection p {
+    max-width: 63%;
+  }
+
+  .ourImpactIndustriesSection h4 {
+    margin-bottom: 20px;
+  }
+
+  .ourImpactIndustriesSection .industryDetails {
+    margin-bottom: 56px;
+  }
+
+  .ourImpactIndustriesSection .industryDetails p {
+    max-width: 100%;
+  }
+
+  .whyChooseUsSection {
+    padding: 72px 0 24px;
+  }
+
+  .joinUsSection {
+    padding: 56px 0 72px;
+  }
+
+  .ourLatestnewsInsightsSection .slick-next {
+    left: 40px !important;
+  }
+
+  .purpleSection .slider__counter {
+    bottom: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .homeHearFromUs.ourExpertiseSection .authorImage {
+    padding: 0;
+  }
+
+  .homeHearFromUs .authorName {
+    display: none;
+  }
+
+  .homeHearFromUs .col-md-5 .authorImage {
+    margin-right: auto;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
+
+  .homeHearFromUs .col-md-5 .authorName {
+    position: unset;
+    bottom: auto;
+    margin-bottom: 40px;
+  }
+
+  .homeHearFromUs .col-md-5 .authorName .sectionDescription {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .homeHearFromUs .testimonyImage {
+    margin: 0 auto;
+  }
+
+  .homeHearFromUs.hearFromUs .leftSection {
+    padding: 16px 0 40px;
+  }
+
+  .homeHearFromUs img {
+    /* position: absolute;
+    bottom: 0; */
+  }
+
+  .homeHearFromUs .hearFromOurPeopleContent {
+    /* min-height: 700px; */
+  }
+
+  .homeHearFromUs.hearFromUs .purpleBg,
+  .ourLatestnewsInsightsSection {
+    padding: 32px 16px;
+  }
+
+  .homeHearFromUs.ourExpertiseSection h6 {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .ourLatestnewsInsightsSection .slider__counter {
+    left: 110px;
+  }
+
+  .homeOurImpactSection .caseStudyListWrapper .linkwithIcon {
+    position: absolute !important;
+  }
+
+  .ourImpactIndustriesSection h4,
+  .industryDetails {
+    width: 100%;
+  }
+
+  .homepageBannerSection .latestUpdateWrap {
+    bottom: 40px;
+  }
+
+  .homeHearFromUs .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+
+  .homeHearFromUs .slick-slide {
+    padding: 0 13px;
+  }
+
+  .homeHearFromUs .slick-slide .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .homeHearFromUs.ourExpertiseSection h6 {
+    padding-bottom: 40px;
+    margin-bottom: 0;
+  }
+
+  .homeHearFromUs.hearFromUs .leftSection {
+    padding-top: 16px;
+  }
+
+  .homeHearFromUs .sectionLabel {
+    margin-bottom: 24px;
+  }
+
+  .whyChooseUsSection h4 {
+    margin-bottom: 32px;
+  }
+
+  .homeHearFromUs .slick-slider .col-md-4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .whyChooseUsSection .col-12 {
+    margin-bottom: 56px;
+  }
+
+  .readWhitePaperWrap {
+    bottom: 32px;
+    right: 20px;
+  }
+
+  .homepageBannerSection .latestUpdateDetails p {
+    font-size: 14px;
+  }
+
+  .homeOurPlatformSection .featuredImg img {
+    max-height: 100%;
+  }
+
+  .homeOurPlatformSection .featuredImg::after {
+    border-left: 1px solid #331D2C;
+  }
+
+  .homeOurPlatformSection .featuredImg::before {
+    border-bottom: 0;
+  }
+
+  .homeOurPlatformSection .featuredWrapper {
+    flex-direction: column-reverse;
+  }
+
+  .joinUsSection .btn-primary {
+    margin-bottom: 56px;
+  }
+
+  .homepageBannerSection .latestUpdateWrap {
+    width: calc(100% - 40px);
+    /* padding: 14px; */
+  }
+
+  .bannerThumbnailWrap img {
+    margin-right: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .joinUsSection .sectionHeadingH4 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-right: 12px;
+  }
+
+  .ourImpactIndustriesSection h4 {
+    font-size: 56px;
+    line-height: 68px;
+  }
+
+  .homeHearFromUs .autoplay button {
+    margin-bottom: -130px;
+  }
+
+  .ourImpactIndustriesSection h4,
+  .industryDetails {
+    margin-bottom: 48px;
+  }
+
+  .homeOurServicesSection h3 {
+    font-size: 62px;
+    line-height: 78px;
+  }
+
+  .homeOurServicesSection {
+    padding: 96px 0;
+  }
+
+  .homeOurPlatformSection {
+    padding-bottom: 104px;
+  }
+
+  .readWhitePaperWrap,
+  .purpleSection .slider__counter {
+    bottom: 32px;
+  }
+
+  .homeOurPlatformSection .featuredImg {
+    min-height: 100%;
+  }
+
+  .homeHearFromUs .leftSection {
+    min-height: 375px;
+  }
+
+  .homeHearFromUs .authorName {
+    /* bottom: 20px; */
+  }
+
+  .homeHearFromUs .row {
+    /* align-items: flex-start; */
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .homeHearFromUs .autoplay button {
+    margin-bottom: -110px;
+  }
+
+  .homeOurServicesSection h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .homeHearFromUs.ourExpertiseSection h6 {
+    font-size: 18px;
+  }
+
+  .homepageBannerSection {
+    height: calc(100vh - 80px) !important;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 991px) {
+  .bannerSection.homepageBannerSection {
+    height: calc(100vh) !important;
+    min-height: 375px;
+    padding-top: 80px;
+  }
+  .homepageBannerSection .container > h1,
+  .homepageBannerSection .container > p {
+    margin-left: 0;
+    width: 60%;
+  }
+  .homepageBannerSection p {
+    font-family: "Graphik Web", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .bannerSection h1 {
+    font-size: 48px;
+    line-height: 56.45px;
+  }
+  .homepageBannerSection .latestUpdateWrap {
+    width: calc(100% - 40px);
+    /* padding: 14px; */
+  }
+  .homepageBannerSection .latestUpdateWrap {
+    bottom: 20px;
+    height: 85px;
+  }
+  .latestUpdateWrap .slide {
+    padding: 10px;
+  }
+  .bannerSection h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+@media (orientation: landscape) and (max-width: 666px) {
+  .homepageBannerSection .container > h1,
+  .homepageBannerSection .container > p {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .p-left-0 {
+    padding-left: 0;
+  }
+
+  .p-right-0 {
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ourLatestnewsInsightsSection .autoplay button {
+    margin-bottom: -22px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .homeHearFromUs.ourExpertiseSection h6 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 515px) {
+  .homeHearFromUs .col-md-5 .authorName .sectionDescription {
+    max-width: 100% !important;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 767px) {
+  .homepageBannerSection {
+    padding-bottom: 0;
+  }
+
+  .homepageBannerSection .mobileBanner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .homepageBannerSection .container {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+  }
+
+  .bannerSection h1 {
+    /* font-size: 40px;
+      line-height: 48px; */
+  }
+
+  .homepageBannerSection .container > h1,
+  .homepageBannerSection .container > p {
+    margin-left: 0;
+    width: 60%;
+  }
+
+  .homepageBannerSection p {
+    font-family: "Graphik Web", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .latestUpdateWrap .slide {
+    padding: 10px;
+  }
+
+  .homepageBannerSection .latestUpdateWrap {
+    bottom: 20px;
+    height: 85px;
+  }
+
+  .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+
+  .latestUpdateDetails .autoplay {
+    max-width: 100%;
+  }
+}
+@media (orientation: landscape) and (max-width: 991px) {
+}
+
+@media (max-width: 374px) {
+  .homepageBannerSection .container > h1,
+  .homepageBannerSection .container > p {
+    width: 100%;
+  }
+
+  .bannerSection h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .homepageBannerSection p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .latestUpdateDetails .autoplay {
+    width: calc(100vw - 40px);
+  }
+  .bannerThumbnailWrap img {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    margin-right: 12px;
+  }
+  .latestUpdateDetails label {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .homepageBannerSection .latestUpdateDetails p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .latestUpdateWrap .slide {
+    height: 80px;
+  }
+  .homepageBannerSection .latestUpdateWrap {
+    height: 70px;
+  }
+}

@@ -1,85 +1,535 @@
-/*
-Template Name: Law Firm
-File: Layout CSS
-Author: TemplatesOnWeb
-Author URI: https://www.templateonweb.com/
-Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
-*/
-/*********************about****************/
-#about{
-padding-top:40px;
-padding-bottom:40px; 
- }
-.about_1r .progress-bar {
-background: #af8c5d;
-}
-.about_1r .progress {
-margin-top:15px;
-height:10px;
-border-radius:0;
-}
-#team_h{
-padding-top:40px;
-padding-bottom:60px; 
-background:#cca87629;
- }
-#work_plan{
-padding-top:30px;
-padding-bottom:40px;
-}
-.work_plan{
-margin-top:30px;
+.aboutOurCompanyBanner {
+    background-color: #ebe3d6;
   }
-.work_plan_inner span{
-color: #af8c5d;
-font-weight:bold;
-font-size:40px;
-}
-.work_plan_inner h3 a{
-color:#000;
-font-size:24px;
-}
-.work_plan_inner:hover h3 a{
-color:#af8c5d;
-}
-.work_plan_inner:hover span{
-color:#000;
-}
-.work_plan_inner p{
-color:#666;
-}
-
-.about_o_1r p i{
-margin-right:5px;
-font-size:10px; 
- }
-#about_o{
-padding-top:40px;
-padding-bottom:40px;
-background:#cca87629; 
- }
-.about_o_1l img{
-height:420px!important; 
- }
-/*********************about_end****************/
-
-
-@media screen and (max-width : 767px){
-.about_1l {
-text-align:center; 
- }
-.about_o_1r {
-margin-top:15px;
-text-align:center; 
- }
-}
-
-@media (min-width:768px) and (max-width:991px) {
-
- }
-@media (min-width:992px) and (max-width:1200px) {
-
+  .bannerSection.articleBanner {
+    padding-bottom: 128px;
   }
-@media (min-width:1201px) and (max-width:1350px) {
-
- }
+  .aboutVividco {
+    padding: 92px 0 192px;
+  }
+  .aboutVividco .featured {
+    height: 100%;
+  }
+  .aboutVividco .featuredLabel label {
+    text-transform: uppercase;
+    color: #220047;
+  }
+  .aboutVividco .borderBeforeAfter::before,
+  .aboutVividco .borderBeforeAfter::after,
+  .aboutVividco .featuredDescription:before,
+  .aboutVividco .featuredDescription::after {
+    border-color: #86a2a2;
+  }
+  .aboutVividco .firstRow.featuredWrapper .featuredDescription {
+    min-height: auto;
+    height: calc(100% - 80px);
+  }
+  .aboutVividco .firstRow .featuredImg {
+    min-height: auto;
+  }
+  .aboutVividco .firstRow .featuredImg p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .aboutVividco .secondRow.featuredWrapper .featuredDescription {
+    min-height: 92px;
+  }
+  .aboutVividco
+    .secondRow.featuredWrapper
+    .col-md-6:first-child
+    .featuredDescription::after {
+    border-right: none;
+  }
+  .aboutExpertSection .expertsDetailsWrap h5,
+  .aboutArticle .filtersWrap a,
+  .aboutArticle .linkwithIcon {
+    font-family: "Graphik Web", sans-serif;
+  }
+  .aboutVividco .thirdRow.featuredWrapper .featuredDescription,
+  .aboutVividco .fourthRow.featuredWrapper .featuredDescription {
+    min-height: 160px;
+  }
+  .aboutVividco .firstRow .featuredImg.borderBeforeAfter::after {
+    border-left: none;
+    border-right: 1px solid #86a2a2;
+  }
+  .aboutVividco .fourthRow.featuredWrapper .col-md-6 .featuredDescription {
+    min-height: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .aboutVividco .fourthRow.featuredWrapper .col-md-6 .featuredDescription img {
+    border-radius: 10px;
+    height: auto;
+  }
+  .aboutVividco .fourthRow.featuredWrapper .col-md-6 .featuredDescription::after {
+    border-left: none;
+  }
+  .aboutVividco .fourthRow.featuredWrapper .col-md-6 .featuredDescription::before {
+    border-bottom: none;
+  }
+  
+  .aboutVividco .fourthRow.featuredWrapper .featuredDescription {
+    height: 100%;
+    /* min-height: 213px; */
+    min-height: 150px;
+  }
+  .aboutVividco .fourthRow.featuredWrapper .col-md-3 .featured {
+    min-height: auto;
+    height: 50%;
+  }
+  
+  .aboutVividco .thirdRow.featuredWrapper .featuredDescription {
+    padding: 32px 22px 32px 30px;
+    min-height: auto;
+    height: 100%;
+  }
+  .aboutVividco
+    .thirdRow.featuredWrapper
+    .col-md-3:first-child
+    .featuredDescription:after,
+  .aboutVividco
+    .thirdRow.featuredWrapper
+    .col-md-3:nth-child(2)
+    .featuredDescription:after,
+  .aboutVividco
+    .thirdRow.featuredWrapper
+    .col-md-3:nth-child(3)
+    .featuredDescription:after,
+  .aboutVividco .fourthRow.featuredWrapper .col-md-6 .featuredDescription:after {
+    border-right: none;
+  }
+  .aboutVividco .featuredWrapper .featuredDescription p {
+    margin-bottom: 0;
+    color: #220047;
+  }
+  .aboutVividco .featuredWrapper .featuredDescription h6 {
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "Graphik Compact Web", sans-serif;
+    color: #220047;
+    font-weight: 400;
+  }
+  .aboutExpertSection {
+    padding-top: 120px;
+    padding-bottom: 96px;
+  }
+  .aboutExpertSection .expertsDetailsWrap {
+    margin-top: 20px;
+  }
+  .expertsSection .icon-ArrowForward::before {
+    color: #220047;
+  }
+  .expertsSection .linkwithIcon {
+    font-family: "Graphik Web", sans-serif;
+  }
+  .aboutAAXIC {
+    padding-top: 176px;
+    padding-bottom: 122px;
+  }
+  .aboutAAXIC h3 {
+    margin-bottom: 40px;
+  }
+  .aboutAAXIC .icon-ArrowForward::before {
+    color: #220047;
+  }
+  .aboutArticle .customRow .customTd:nth-child(3) {
+    width: 60%;
+  }
+  .aboutArticle {
+    padding-bottom: 32px !important;
+  }
+  .contactUsSection + .aboutArticle.keepReadingSection {
+    padding-top: 96px;
+    margin-bottom: 0;
+  }
+  .aboutArticle .customRow .customTd:nth-child(2) {
+    width: 25%;
+  }
+  .aboutArticle .filtersWrap {
+    margin-bottom: 16px;
+  }
+  .aboutArticle .filtersWrap a {
+    text-transform: uppercase;
+  }
+  .aboutArticle .typeWrap.date {
+    font-family: "Graphik Web", sans-serif;
+    padding-left: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 16px;
+    text-align: left;
+  }
+  .aboutArticle .typeWrap.pressRelease {
+    height: max-content;
+    font-family: "Graphik Web", sans-serif;
+    font-weight: 400;
+  }
+  .aboutAwardCareers {
+    padding: 120px 0 154px !important;
+  }
+  .aboutAwardCareers .awards {
+    margin-bottom: 0 !important;
+  }
+  .purpleBg .articleContent h1 {
+    font-family: "Graphik Compact Web", sans-serif;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 68px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+    margin-top: 62px;
+  }
+  .purpleBg .articleContent h2 {
+    font-size: 40px !important;
+    line-height: 50px !important;
+    font-weight: 300;
+    font-family: "Graphik Compact Web", sans-serif;
+    margin-bottom: 18px;
+  }
+  .purpleBg .articleContent h3 {
+    font-size: 30px !important;
+    line-height: 45px !important;
+    font-weight: 300;
+    font-family: "Graphik Compact Web", sans-serif;
+    margin-bottom: 18px;
+  }
+  .purpleBg .articleContent h4 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+    font-weight: 300;
+    font-family: "Graphik Compact Web", sans-serif;
+    margin-bottom: 18px;
+  }
+  
+  @media (max-width: 1366px) {
+    .aboutVividco .firstRow .featuredImg p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 1280px) {
+    .aboutOurCompanyBanner h1 {
+      font-size: 72px;
+      line-height: 82px;
+      max-width: 97% !important;
+    }
+    .aboutAAXIC h3 {
+      font-size: 65px;
+      line-height: 80px;
+    }
+  }
+  @media (max-width: 1199px) {
+    .aboutVividco .firstRow .featuredImg p {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+    .aboutVividco .firstRow .featuredImg {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .aboutVividco .featuredWrapper .featuredDescription p {
+      font-size: 14px;
+    }
+    .aboutVividco .featuredWrapper .featuredDescription h6 {
+      font-size: 26px;
+    }
+    .expertDataWrap h5 {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 992px) {
+    .aboutVividco .firstRow .featuredImg {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
+  /* @media(max-width:834px){
+      .aboutVividco .secondRow.featuredWrapper .featuredDescription{
+          min-height: 110px;
+      }
+      .aboutVividco .featuredWrapper .featuredDescription h6{
+          font-size: 25px;
+          line-height: 32px;
+      }
+      .aboutVividco .thirdRow.featuredWrapper .featuredDescription {
+          padding: 20px 22px 20px 30px;
+      }
+      .aboutVividco, .aboutAAXIC{
+          padding: 120px 0;
+      }
+      .aboutAAXIC h3 {
+          font-size: 56px;
+          line-height: 63px;
+      }
+  } */
+  @media (max-width: 767px) {
+    .aboutVividco {
+      padding-top: 96px;
+    }
+    .aboutArticle {
+      padding-bottom: 80px !important;
+    }
+    .aboutVividco .firstRow .borderBeforeAfter {
+      padding: 24px 15px;
+    }
+    .aboutOurCompanyBanner h1 {
+      font-size: 48px;
+      line-height: 56px;
+    }
+    .aboutVividco .firstRow .featuredImg.borderBeforeAfter::before {
+      border-top: none;
+    }
+    .aboutVividco .firstRow .featuredImg.borderBeforeAfter::after {
+      border-left: 1px solid #86a2a2;
+    }
+    .aboutVividco .firstRow .borderBeforeAfter {
+      padding-left: 20px;
+    }
+    .aboutVividco .firstRow .featuredImg p {
+      font-size: 18px;
+    }
+    .aboutVividco .featuredWrapper .featuredDescription h6 {
+      font-size: 22px;
+    }
+    .aboutVividco .featuredWrapper .featuredDescription p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .aboutVividco .featuredWrapper .featuredDescription,
+    .aboutVividco .thirdRow.featuredWrapper .featuredDescription {
+      min-height: auto !important;
+      padding: 24px 20px 32px;
+    }
+    .aboutVividco
+      .thirdRow.featuredWrapper
+      .col-md-3:nth-child(2)
+      .featuredDescription:after,
+    .aboutVividco
+      .fourthRow.featuredWrapper
+      .col-md-3:first-child
+      .featuredDescription:after,
+    .aboutVividco
+      .thirdRow.featuredWrapper
+      .col-md-3:first-child
+      .featuredDescription:after,
+    .aboutVividco
+      .thirdRow.featuredWrapper
+      .col-md-3:nth-child(3)
+      .featuredDescription:after {
+      border-right: 1px solid #86a2a2;
+    }
+    .aboutAwardCareers {
+      padding: 64px 0 104px !important;
+    }
+    .aboutExpertSection {
+      padding: 64px 0 104px;
+    }
+    .aboutExpertSection .expertsDetailsWrap {
+      margin-top: 48px;
+    }
+    .aboutExpertSection .expertDataWrap h4 {
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .aboutExpertSection .expertsDetailsWrap h5 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .aboutAAXIC {
+      padding: 120px 0 100px;
+    }
+    .aboutAAXIC h3 {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .aboutArticle {
+      padding-top: 32px;
+      padding-bottom: 100px;
+    }
+    .aboutArticle .customTableStructure .customRow {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .aboutArticle .customRow .customTd:first-child,
+    .aboutArticle .customRow .customTd:nth-child(2) {
+      width: 50%;
+    }
+    .aboutArticle .customRow .customTd:first-child {
+      text-align: left;
+      order: 2;
+    }
+    .aboutArticle .customRow .customTd:nth-child(2) {
+      order: 1;
+    }
+    .aboutArticle .customRow .customTd:nth-child(3) {
+      order: 3;
+      width: 100%;
+      margin-top: 16px;
+    }
+    .aboutArticle .customRow .customTd:nth-child(4) {
+      order: 4;
+      width: 100%;
+      justify-content: flex-start;
+    }
+    .aboutArticle .customRow .customTd h6 {
+      padding-right: 0;
+    }
+    .aboutArticle .insightInnerContentWrap {
+      padding-bottom: 0;
+    }
+    .borderBeforeAfter.hideBorderMobile::after,
+    .borderBeforeAfter.hideBorderMobile::before {
+      border-bottom: none;
+      border-top: none;
+    }
+    .contactUsSection + .aboutArticle.keepReadingSection {
+      padding-top: 32px;
+    }
+  }
+  
+  /* article banner */
+  .articleBanner {
+    background-color: #220047;
+    min-height: 387px;
+    height: auto !important;
+  }
+  .articleBanner p span {
+    position: relative;
+    width: 24px;
+    height: 1px;
+    padding: 0 30px;
+  }
+  .articleBanner p span::before {
+    background-color: #fff;
+    content: "";
+    width: 24px;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    right: 0;
+    margin: 0 auto;
+  }
+  .articleBanner p {
+    color: #fff;
+    font-family: "Graphik Compact Web", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    padding-top: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  .articleContent {
+    padding-top: 104px;
+    padding-bottom: 96px;
+    color: #220047;
+  }
+  .articleContent p {
+    color: #220047;
+    padding-bottom: 24px;
+    margin-bottom: 0;
+    line-height: 24px;
+  }
+  .articleContent .articleContentText {
+    border-top: 1px solid #220047;
+    padding-top: 24px;
+  }
+  .articleContent .articleContentText h5 {
+    font-size: 30px;
+    line-height: 40px;
+    font-family: "Graphik Compact Web", sans-serif;
+    margin-bottom: 18px;
+  }
+  .articleContent .articleContentText ul {
+    margin-bottom: 40px;
+  }
+  
+  .articleContentText p b,
+  .articleContentText p strong,
+  .articleContent b p,
+  .articleContent strong p {
+    font-weight: 500;
+  }
+  
+  .articleContent p a {
+    color: #220047 !important;
+    font-size: 16px;
+    line-height: 17.6px;
+    font-family: "Graphik Compact Web", sans-serif;
+    font-weight: 500;
+  }
+  @media (max-width: 991px) {
+    .articleBanner h3 {
+      font-size: 60px;
+      line-height: 70px;
+    }
+    .purpleBg .articleBanner h1 {
+      margin-top: 24px;
+    }
+    .bannerSection.articleBanner {
+      padding-bottom: 48px;
+    }
+  }
+  @media (max-width: 767px) {
+    .articleBanner h3 {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .aboutArticle .typeWrap.pressRelease {
+      position: absolute;
+      right: 0;
+    }
+    .articleContent {
+      padding-top: 48px;
+    }
+    .articleBanner {
+      min-height: 284px;
+      padding-top: 48px;
+      padding-bottom: 48px;
+    }
+    .purpleBg .articleBanner h1 {
+      font-size: 40px;
+      line-height: 50px;
+      margin-top: 0;
+    }
+    .bannerSection.articleBanner {
+      padding-bottom: 48px;
+    }
+    .articleContent .articleContentText h5 {
+      font-size: 22px;
+      line-height: 30px;
+      font-weight: 400;
+      margin-bottom: 16px;
+    }
+    .aboutArticle .typeWrap.date {
+      position: relative;
+      line-height: 22px;  
+    }
+    .aboutArticle .typeWrap.date::before {
+      display: none;
+    }
+    .aboutVividco .fourthRow.featuredWrapper .col-md-3 .featured {
+      height: auto;
+      min-height: auto !important;
+    }
+    .aboutArticle .customRow .customTd:nth-child(4),
+    .aboutArticle .customRow .customTd:nth-child(3) {
+      padding-left: 0;
+    }
+  }
+  @media (max-width: 576px) {
+    .articleBanner p span {
+      padding: 0 10px;
+    }
+    .articleBanner p span::before {
+      width: 10px;
+    }
+    .articleBanner p {
+      font-size: 12px;
+    }
+  }

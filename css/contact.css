@@ -1,50 +1,254 @@
-/*
-Template Name: Law Firm
-File: Layout CSS
-Author: TemplatesOnWeb
-Author URI: https://www.templateonweb.com/
-Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
-*/
-/*********************contact****************/
-#contact{
-padding-top:40px;
-padding-bottom:40px; 
- }
-.contact_1li .form-control{
-box-shadow:none;
-font-size:16px;
-height:50px;
-margin-top:20px;
-border-color:#cca87629;
- }
-.contact_1li .form_1{
-height:150px; 
- }
-.contact_2{
-margin-top:40px; 
- }
-.contact_1ri1{
-margin-top:30px; 
- }
-/*********************contact_end****************/
-
-
-
-@media screen and (max-width : 767px){
-#contact{
-text-align:center; 
- }
-.contact_1l {
-margin-top:15px; 
- }
+.contactBanner {
+    background-color: #220047;
+    padding-top: 105px;
+}
+.contactBanner.whyVividco .featuredLabel h1{
+    color: #fff;
+    font-size: 96px;
+    line-height: 108px;
+    font-weight: 300 !important;
+    font-family: 'Graphik Compact Web', sans-serif;
+}
+.contactBanner .borderBeforeAfter::before, .contactBanner .borderBeforeAfter::after{
+    border-color: #C9DEF4;
+}
+.contactBanner .featuredImg::after{
+    border-right: 1px solid #C9DEF4;
+    border-left: none;
+}
+.contactBanner .featuredImg{
+    height: 100%;
+    padding: 44px 34px;
+}
+.contactBanner .featuredImg img{
+    width: 100%;
+    /* height: 100%; */
+    max-height: fit-content;
+    max-width: fit-content;
+}
+.contactBanner .leftSection .firstRow .featuredLabel.emptycolumn.borderBeforeAfter::after,.contactBanner .leftSection .fourthRow .featuredLabel.emptycolumn.borderBeforeAfter::after {
+    border-left:none ;
+    border-right: none;
+}
+.contactBanner .leftSection .fifthRow .featuredLabel.emptycolumn.borderBeforeAfter::after{
+    border-right: none;
+}
+.contactBanner .leftSection .secondRow .col-2.borderBeforeAfter::after{
+    border-right: none;
+} 
+.contactBanner .leftSection .secondRow .col-md-6.borderBeforeAfter::before{
+    border-bottom: none;
+}
+.contactBanner .leftSection .firstRow .featuredLabel.borderBeforeAfter::before{
+    border-bottom: none;
+}
+.contactBanner .leftSection .fourthRow .featuredLabel.borderBeforeAfter::before, .contactBanner .leftSection .fifthRow .featuredLabel.borderBeforeAfter::before{
+    border-top: none;
+}
+.letsTalkForm{
+    background-color: #220047;
+    padding: 127px 0;
+}
+.letsTalkForm label{
+    color: #fff;
+    margin-bottom: 16px;
+}
+.letsTalkForm p{
+    color: #fff;
+}
+.letsTalkForm form input, .letsTalkForm form textarea, .letsTalkForm form select, .letsTalkForm form .hs-form-radio-display::after{
+    border-color: #fff ;
+	color: #fff; 
+}
+.letsTalkForm form select{
+	background-color:transparent  !important;
+	color:#fff
+}
+.letsTalkForm .hs-error-msg{
+	color: #f02f3b !important
+}
+.letsTalkForm form select option{
+	color:#220047 !important;
+}
+.letsTalkForm form input[type='submit'], .letsTalkForm .btn-secondary{
+	background-color:#F95B66 !important;
+	border-color:#F95B66 !important;
+	color: #17012E;
+}
+.letsTalkForm form .checkedRadioBtn::before{
+	background:#fff;
+}
+.letsTalkForm .hs-form-field label span{
+    color: #fff; 
+}
+.ourLocation{
+    padding: 120px 0 192px;
+}
+.ourLocation h3{
+    padding-bottom: 56px;
+}
+.ourLocation .borderBeforeAfter::after, .ourLocation .borderBeforeAfter::before, .ourLocation .featuredDescription:before, .ourLocation .featuredDescription:after{
+    border-color: #86A2A2;
+}
+.ourLocation .featuredDescription .phone, .ourLocation .featuredDescription .address{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 35px;
+    color: #220047;
+}
+.ourLocation .featuredDescription:before{
+    border-bottom: none;
+}
+.ourLocation .featuredWrapper .col-md-4:nth-child(8) .featuredLabel.borderBeforeAfter::before, .ourLocation .featuredWrapper .col-md-4:nth-child(5) .featuredLabel.borderBeforeAfter::before{
+	border-top:none;
+}
+.ourLocation .col-md-4:first-child .featuredDescription:before, .ourLocation .col-md-4:nth-child(3) .featuredDescription:before {
+    border-top: 1px solid #86A2A2;
+}
+.ourLocation .col-md-4:nth-child(2) .featuredDescription:after, .ourLocation .col-md-4:nth-child(5) .featuredDescription:after, .ourLocation .col-md-4:nth-child(5) .borderBeforeAfter::after, .ourLocation .col-md-4:nth-child(2) .borderBeforeAfter::after, .ourLocation .col-md-4.middle-section .featuredDescription:after, .ourLocation .col-md-4.middle-section .borderBeforeAfter::after{
+    border-left: none;
+    border-right: none;
+}
+.ourLocation .col-md-4.middle-section .featuredDescription:before{
+    border-bottom: 1px solid #86A2A2;
+}
+.ourLocation .featuredDescription h5{
+    margin-bottom: 20px;
+    color: #220047;
+    font-size: 24px;
+    line-height: 34px;
+}
+.ourLocation .featuredDescription .phone::before{
+    background: url(../images/phone.svg);
+    content: '';
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    
+}
+.ourLocation .featuredDescription .address::before{
+    background: url(../images/pin.svg);
+    content: '';
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    
+}
+.ourLocation .featuredWrapper .featuredDescription{
+    min-height: auto;
+    height: calc(100% - 80px);
+    padding: 56px 64px;
 }
 
-@media (min-width:768px) and (max-width:991px) {
+.ourLocation .featured{
+    height: 100%;
+}
+@media(max-width:1199px){
+    .contactBanner.whyVividco .featuredLabel h1 {
+        font-size: 76px;
+        line-height: 86px;
+    }
+    .ourLocation .featuredWrapper .featuredDescription {
+        padding: 56px 46px;
+    }
+}
+@media(max-width:992px){
+    .contactBanner.whyVividco .featuredLabel h1 {
+        font-size: 56px;
+        line-height: 66px;
+    }
+    .ourLocation .featuredWrapper .featuredDescription {
+        padding: 26px;
+    }
+    .contactBanner .featuredWrapper{
+        --bs-gutter-x:1.5rem
+    }
+    
+}
+@media(max-width:767px){
+    .contactBanner .featuredLabel{
+        padding: 24px 22px;
+    }
 
- }
-@media (min-width:992px) and (max-width:1200px) {
+    .ourLocation .emptybox {
+        display: none;
+    }
+    .contactBanner.whyVividco .featuredLabel h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 0;
+    }
+    .contactBanner .firstRow .featuredLabel h1{
+        text-align: left !important;
+    }
+    .contactBanner .thirdRow .featuredLabel{
+        padding: 24px 12px;
+    }
+    .contactBanner .featuredImg::after{
+        border-left: 1px solid #C9DEF4;
+    }
+    .contactBanner .featuredImg::before{
+        border-top: none;
+    }
+    .contactBanner .thirdRow .featuredLabel:nth-child(2).borderBeforeAfter::after, .contactBanner .thirdRow .featuredLabel:nth-child(4).borderBeforeAfter::after{
+        border-left: none;
+        border-right: none;
+    } 
+    .contactBanner .featuredImg{
+        padding: 20px;
+        min-height: auto;
+    }
+    .contactBanner .featuredImg img{
+        /* max-height: 382px; */
+        max-width: 382px;
+        max-height: unset;
+    }
+    .letsTalkForm{
+        padding: 64px 0 56px;
+    }
+    .ourLocation{
+        padding: 96px 0 107px;
+    }
+    .ourLocation h3{
+        padding-bottom: 48px;
+    }
+    .ourLocation .featuredWrapper .featuredDescription{
+        padding: 32px 27px;
+    }
+    .ourLocation .col-md-4:nth-child(2) .featuredDescription:after, .ourLocation .col-md-4:nth-child(5) .featuredDescription:after, .ourLocation .col-md-4:nth-child(5) .borderBeforeAfter::after, .ourLocation .col-md-4:nth-child(2) .borderBeforeAfter::after, .ourLocation .col-md-4.middle-section .featuredDescription:after, .ourLocation .col-md-4.middle-section .borderBeforeAfter::after{
+        border-left: 1px solid #86A2A2;
+        border-right: 1px solid #86A2A2;
+    }
+    .ourLocation .featuredWrapper .col-md-4:nth-child(2) .featuredLabel.borderBeforeAfter::before{
+        border-bottom: none;
+    }
+    .ourLocation .featuredWrapper .col-md-4:nth-child(2) .featuredLabel.borderBeforeAfter::before,.ourLocation .featuredWrapper .col-md-4:nth-child(5) .featuredLabel.borderBeforeAfter::before, .ourLocation .featuredWrapper .col-md-4:nth-child(8) .featuredLabel.borderBeforeAfter::before{
+        border-top: none;
+    }
+    .ourLocation .featuredLabel{
+        padding: 24px;
+    }
+    .ourLocation .featured{
+        height: auto;
+    }
+	.letsTalkForm p{
+		margin-bottom:56px
+	}
+	.contactBanner .featuredLabel{
+		padding-left:13px
+	}
+}
 
-  }
-@media (min-width:1201px) and (max-width:1350px) {
-
- }
+@media(min-width: 768px) {
+    .featuredWrapper .col-md-4:nth-child(2) .featuredDescription:before {
+        border-bottom: 0;
+        border-top: 1px solid #86A2A2;
+    }
+    .ourLocation .featuredWrapper .featuredDescription {
+        min-height: 398px;
+    }
+}
