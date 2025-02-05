@@ -880,45 +880,7 @@ $latestUpdatesSlider.slick({
 
 // Home news insights slider
 
-var $learnNucliOsSlider = $("#learnNucliOsSlider");
-$learnNucliOsSlider.slick({
-  pauseOnFocus: false,
-  autoplay: false,
-  autoplaySpeed: 1500,
-  arrows: true,
-  prevArrow: '<button type="button" class="slick-prev"></button>',
-  nextArrow: '<button type="button" class="slick-next"></button>',
-  centerMode: false,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  infinite: true,
-  dots: false,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false,
-      },
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ],
-});
+
 
 var $newsInsightsslider = $("#newsInsightsSlider");
 if ($newsInsightsslider.length) {

@@ -2107,30 +2107,19 @@ form input[type="submit"],
   opacity: 0.2;
 }
 
-.nucliosSliderSection .autoplay .slick-next {
+.autoplay .slick-next {
   left: -32px !important;
 }
 
-.nucliosSliderSection .autoplay button {
+.autoplay button {
   bottom: -70px;
   left: -72px;
 }
 
-.nucliosSliderSection {
-  background-color: #c9def4;
-  padding: 62px 74px;
-  width: 773px;
-  height: 458px;
-  border-radius: 10px;
-  margin: auto;
-}
 
-.nucliosSliderSection img {
-  width: 100%;
-  max-height: 480px;
-}
 
-.nucliosSliderSection .slick-slider {
+
+.slick-slider {
   padding-bottom: 70px;
   margin-bottom: 0;
 }
@@ -2595,10 +2584,10 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
 .careerSubPageWrap
   .videoPadding
   + .videoSection.secondVideo
-  .nucliosVideoWrap {
+   {
   display: none;
 }
-.videoSection.secondVideo .nucliosVideoWrap + .img-fluid {
+.videoSection.secondVideo  + .img-fluid {
   display: none;
 }
 .careerSubPageWrap .videoPadding + .videoSection.secondVideo {
@@ -2643,13 +2632,7 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
   font-size: 18px;
   line-height: 28px;
 }
- .nucliosVideoWrap {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%;
-  border-radius: 10px;
-}
+
  .responsive-iframe {
   position: absolute;
   top: 0;
@@ -2677,9 +2660,7 @@ form .hs-form-radio-display input[type="radio"]:checked::after {
 /* #headerFromUsSlider .videoWrapper {
   margin-right: 40px;
 } */
-#learnNucliOsSlider .nucliosVideoWrap {
-  margin-top: 0;
-}
+
 
 .eventSlider .slick-track {
   margin-left: 0;

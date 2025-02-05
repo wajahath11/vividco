@@ -28,22 +28,23 @@
     padding-top: 50px;
 }
 
-.learnNucliOs .servicesDetailThumbnail{
+.servicesDetailThumbnail{
     padding: 30px 30px 0;
     background-color: #C9DEF4;
 }
-.learnNucliOs .servicesDetailThumbnail img{
+.servicesDetailThumbnail img{
     /* max-height: 355px;
     object-fit: contain; */
 }
-.learnNucliOs h6{
+ h6{
     padding-top: 16px;
     margin-bottom: 56px;
 }
-.learnNucliOs label{
+label{
     margin-bottom: 0;
 }
-.learnNucliOs .servicesDetailsWrapper{
+
+.servicesDetailsWrapper{
     padding-top: 56px;
 }
 .possibleWithVividStudio{
@@ -234,14 +235,7 @@
     height: 115px;
     padding: 15px;
 }
-.nucliosVideoWrap {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-    margin-top: 56px;
-    border-radius: 10px;
-}
+
 
     /* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
@@ -293,7 +287,7 @@ line-height: 24px; /* 150% */
     }
 }
 @media(min-width:993px) and (max-width:1199px){
-    .learnNucliOs .servicesDetailThumbnail{
+     .servicesDetailThumbnail{
         /* padding:80px 20px 0; */
     }
     .vividStudioBanner h1{
@@ -307,9 +301,7 @@ line-height: 24px; /* 150% */
     .possibleWithVividStudio .featuredWrapper .featuredImg img{
         object-fit: cover;
     }
-    .learnNucliOs{
-        padding-bottom: 60px;
-    }
+
     .possibleWithVividStudio{
         padding-bottom: 50px;
     }
@@ -365,10 +357,9 @@ line-height: 24px; /* 150% */
         font-size: 56px;
         line-height: 62px;
     }
-    .learnNucliOs{
-        padding: 80px 0;
-    }
-    .learnNucliOs .servicesDetailThumbnail{
+
+     .servicesDetailThumbnail{
+
         height: auto;
         /* padding: 80px 20px 0; */
     }
@@ -435,7 +426,7 @@ line-height: 24px; /* 150% */
     .peopleTestimony.ourExpertiseSection .authorImage {
         padding: 0;
       }
-    .learnNucliOs h6{
+    h6{
         padding-top: 10px;
     }
     .vividStudioBanner img {
@@ -447,15 +438,13 @@ line-height: 24px; /* 150% */
         margin-right: 0;
         margin-left: 0;
     }
-    .learnNucliOs .servicesDetailsWrapper{
+    .servicesDetailsWrapper{
         padding-top: 56px;
     }
-    .learnNucliOs .servicesDetailThumbnail{
+    .servicesDetailThumbnail{
         /* padding:21px 61px 0; */
     }
-    .learnNucliOs{
-        padding-bottom: 115px;
-    }
+
     .possibleWithVividStudio{
         padding-top:0 ;
         padding-bottom: 20px;
@@ -471,7 +460,7 @@ line-height: 24px; /* 150% */
         max-width: 304px;
         margin: 0 auto;
     }
-    .learnNucliOs .servicesDetailThumbnail img{
+    .servicesDetailThumbnail img{
         /* min-height: 291px;
         object-fit: cover;
         width: auto; */

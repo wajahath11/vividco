@@ -509,22 +509,18 @@
     .submitted-message {
       font-size: 18px;
     }
-    .nucliosSliderSection .autoplay button {
+  .autoplay button {
       bottom: -105px;
       left: -27px;
     }
-    .nucliosSliderSection .autoplay .slick-next {
+    .autoplay .slick-next {
       left: 14px !important;
     }
-    .nucliosSliderSection {
-      padding: 27px;
-      width: 350px;
-      height: auto;
-    }
-    .nucliosSliderSection .slick-slider {
+
+    .slick-slider {
       padding-bottom: 0;
     }
-    .nucliosSliderSection .slick-dots {
+    .slick-dots {
       bottom: 10px;
     }
     .moreMenuWrap {
