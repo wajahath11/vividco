@@ -1,0 +1,131 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2023 Schwartzco Inc.
+        License: 2309-RFJROD     
+*/
+
+
+@font-face {
+  font-family: 'Graphik Compact Web';
+  src: url('../fonts/GraphikCompact-Medium-Web.woff2') format('woff2'),
+       url('../fonts/GraphikCompact-Medium-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikCompact-Medium-Web {
+  font-family: 'Graphik Compact Web';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Compact Web';
+  src: url('../fonts/GraphikCompact-Regular-Web.woff2') format('woff2'),
+       url('../fonts/GraphikCompact-Regular-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikCompact-Regular-Web {
+  font-family: 'Graphik Compact Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Compact Web';
+  src: url('../fonts/GraphikCompact-Light-Web.woff2') format('woff2'),
+       url('../fonts/GraphikCompact-Light-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.GraphikCompact-Light-Web {
+  font-family: 'Graphik Compact Web';
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Medium-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Medium-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Medium-Web {
+  font-family: 'Graphik Web';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Regular-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Regular-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Regular-Web {
+  font-family: 'Graphik Web';
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-LightItalic-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-LightItalic-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+.Graphik-LightItalic-Web {
+  font-family: 'Graphik Web';
+  font-weight:  300;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('../fonts/Graphik-Light-Web.woff2') format('woff2'),
+       url('../fonts/Graphik-Light-Web.woff') format('woff');
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Light-Web {
+  font-family: 'Graphik Web';
+  font-weight:  300;
+  font-style:   normal;
+  font-stretch: normal;
+}
+

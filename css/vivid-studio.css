@@ -1,0 +1,634 @@
+.vividStudioBanner h1{
+    margin-bottom: 24px;
+    margin-left: 0;
+}
+.vividStudioBanner p{
+    margin: 0 auto;
+    line-height: 24px;
+    text-align: left;
+    /* max-width: 95%; */
+    margin-right: 24px;
+}
+
+.vividStudioBanner img {
+    max-width: 504px;
+    max-height: 446px;
+    width: 100%;
+    padding-top: 50px;
+}
+.vividStudioBanner .sectionLabel,
+.vividStudioBanner h1 {
+    text-align:  left;
+    margin-right: 24px;
+}
+.vividStudioBanner h1 {
+    margin-bottom: 24px;
+}
+.vividStudioBanner .sectionLabel {
+    padding-top: 50px;
+}
+
+.servicesDetailThumbnail{
+    padding: 30px 30px 0;
+    background-color: #C9DEF4;
+}
+.servicesDetailThumbnail img{
+    /* max-height: 355px;
+    object-fit: contain; */
+}
+ h6{
+    padding-top: 16px;
+    margin-bottom: 56px;
+}
+label{
+    margin-bottom: 0;
+}
+
+.servicesDetailsWrapper{
+    padding-top: 56px;
+}
+.possibleWithVividStudio{
+    padding-top: 0;
+    padding-bottom: 104px;
+}
+.possibleWithVividStudio h3{
+    padding-bottom: 91px;
+    max-width: 94%;
+}
+.possibleWithVividStudio .featuredWrapper .borderBeforeAfter:before,.possibleWithVividStudio .featuredWrapper .borderBeforeAfter:after,.possibleWithVividStudio .featuredWrapper  .featuredDescription:before, .possibleWithVividStudio .featuredWrapper .featuredDescription:after{
+    border-color:#86A2A2;
+    
+}
+.possibleWithVividStudio .featuredWrapper.alternatePossibleVividItem .featuredImg::after{
+    border-left: 1px solid #86A2A2 !important;
+    border-right: none;
+}
+.possibleWithVividStudio .featuredWrapper .featured .featuredLabel label{
+    margin-left: 0;
+    text-align: left;
+    margin-bottom: 0;
+    color: #220047;
+    text-transform: uppercase;
+}
+.possibleWithVividStudio .featured{
+    height: 100%;
+}
+.possibleWithVividStudio .featuredWrapper .featured .featuredDescription h6{
+    font-family: 'Graphik Compact Web', sans-serif;
+    
+    margin-left: 0;
+    text-align: left;
+    font-weight: 400;
+    max-width: 100%;
+    font-size: 30px;
+    line-height: 40px;
+}
+.possibleWithVividStudio .featuredWrapper .featuredDescription{
+    height: calc(100% - 80px);
+    min-height: auto;
+}
+.possibleWithVividStudio .featuredWrapper .featuredImg{
+    min-height: 463px;
+	height:100%;
+}
+.possibleWithVividStudio .featuredWrapper .featuredImg img{
+    max-width: 100%;
+    max-height: 337px;
+}
+.possibleWithVividStudio .featuredWrapper .featured .featuredDescription a{
+    color: #220047;
+    margin-top: 32px;
+}
+.possibleWithVividStudio .featuredWrapper{
+    margin-bottom: 88px;
+    padding: 0 20px;
+}
+.possibleWithVividStudio  .rightSection.featuredImg::after{
+    border-right: 1px solid #86A2A2;
+}
+.possibleWithVividStudio .rightSection.featuredImg.borderBeforeAfter::after{
+    border-left: 0;
+}
+.possibleWithVividStudio  .featured .linkwithIcon, .possibleWithVividStudio  .linkwithIcon i::before{
+    color: #220047;
+}
+.peopleTestimony .bg-purple{
+    background-color: #220047;
+    border-radius: 4px;
+    padding: 16px 0;
+}
+.alternatePossibleVividItem .featuredImg::after{
+    border-right: 1px solid #86A2A2;
+    border-left: none;
+}
+.peopleTestimony{
+    padding-top: 0;
+    padding-bottom: 192px;
+}
+.peopleTestimony.ourExpertiseSection .authorImage {
+    padding: 40px 40px 40px 0;
+  }
+.peopleTestimony .bg-purple .leftSection{
+    padding: 40px 41px 40px;
+    position: relative;
+    height: 100%;
+}
+.peopleTestimony .bg-purple .leftSection h6, .peopleTestimony .bg-purple .leftSection .sectionLabel{
+    color: #fff;
+    margin-left: 0;
+    text-align: left;
+    max-width: 100%;
+}
+.peopleTestimony .bg-purple .leftSection h6{
+    padding-bottom: 139px;
+}
+.peopleTestimony .bg-purple .leftSection .sectionLabel{
+    padding-bottom: 16px;
+}
+.peopleTestimony .bg-purple  .authorName .sectionDescription:first-child{
+    font-weight: 500;
+}
+.peopleTestimony .bg-purple  .authorName .sectionDescription{
+    color: #fff;
+    text-align: left;
+    margin-left: 0;
+}
+.peopleTestimony .bg-purple .authorName{
+    position: absolute;
+    bottom: 40px;
+}
+.peopleTestimony .slick-slider{
+	padding-bottom:0
+}
+.peopleTestimony .slick-slider button{
+	bottom:-130px
+}
+.peopleTestimony .slick-slider button.slick-prev{
+	left:-7px
+}
+.peopleTestimony .slick-slider button.slick-next{
+	left:24px !important;
+    margin-left: 16px;
+}
+.bgPurpleFeatures{
+    background-color: #220047;
+    padding: 152px 0 180px;
+}
+.bgPurpleFeatures h6, .bgPurpleFeatures .sectionLabel{
+    color: #fff;
+    text-align: left;
+    margin-left: 0;
+}
+.bgPurpleFeatures h6{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: 'Graphik Compact Web', sans-serif;
+    padding-top: 16px;
+}
+.bgPurpleFeatures .featuredDescription:before, .bgPurpleFeatures .featuredDescription::after{
+    display: none;
+}
+.bgPurpleFeatures .features{
+    padding-top: 76px;
+    padding-bottom: 4px;
+}
+.bgPurpleFeatures .features p{
+    max-width: 322px;
+    margin-bottom: 0;
+}
+.shortSentences .linkwithIcon{
+    margin-bottom: 24px;
+    font-family: 'Graphik Web', sans-serif;
+}
+.shortSentences p{
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 29px;
+}
+.shortSentences{
+    padding-bottom: 200px;
+}
+.shortSentences .linkwithIcon i::before, .caseStudyListItem .icon-ArrowForward::before{
+    color: #220047;
+}
+.peopleTestimony .testimonyImage{
+    object-fit: cover;
+    border-radius: 8px;
+    max-width: 413px;
+    max-height: 464px;
+    margin-left: auto;
+}
+.caseStudiesSection.caseStudyThumnail {
+    padding-bottom: 104px;
+    padding-top: 104px;
+}
+.caseStudyThumnail h4{
+    min-height: auto !important;
+}
+.caseStudiesSection.caseStudyThumnail .caseStudyListItem p{
+    line-height: 24px;
+}
+
+.bgPurpleFeatures .featuredDescription img {
+    width: 115px;
+    height: 115px;
+    padding: 15px;
+}
+
+
+    /* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.aboutMarketingSuite {
+    background: #220047;
+    padding: 120px 0 140px;
+    color: #fff;
+    margin-bottom: 152px;
+}
+.aboutMarketingSuite .sectionLabel {
+    color: #fff;
+    text-align: left;
+margin-bottom: 16px;
+}
+.aboutMarketingSuite h6 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: 'Graphik Compact Web', sans-serif;
+}
+.aboutMarketingSuite p {
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+
+@media(max-width:1366px){
+    .possibleWithVividStudio .featuredWrapper .featuredDescription{
+        padding: 16px 32px;
+    }
+    .possibleWithVividStudio .featuredWrapper .featured .featuredDescription h6{
+        font-size: 28px;
+    }
+    
+}
+@media(max-width:1199px){
+    .peopleTestimony .testimonyImage{
+        max-width: 100%;
+    }
+}
+@media(min-width:993px) and (max-width:1199px){
+     .servicesDetailThumbnail{
+        /* padding:80px 20px 0; */
+    }
+    .vividStudioBanner h1{
+        font-size: 70px;
+        line-height: 80px;
+    }
+    
+    .possibleWithVividStudio .featuredWrapper .featured .featuredDescription h6{
+        font-size: 22px;
+    }
+    .possibleWithVividStudio .featuredWrapper .featuredImg img{
+        object-fit: cover;
+    }
+
+    .possibleWithVividStudio{
+        padding-bottom: 50px;
+    }
+    .caseStudyThumnail, .bgPurpleFeatures, .shortSentences{
+        padding-bottom: 50px;
+    }
+}
+@media(max-width:1024px){
+    .caseStudyThumnail .leftSideContent h4{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .possibleWithVividStudio h3{
+        font-size: 60px;
+        line-height: 70px;
+        padding-bottom: 54px;
+    }
+    .peopleTestimony .bg-purple .leftSection h6{
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+@media(max-width:992px){
+    .possibleWithVividStudio .featuredWrapper .featured .featuredDescription h6{
+        font-size: 22px;
+        line-height: 32.5px;
+    }
+    .shortSentences h4{
+        margin-bottom: 24px;
+    }
+    .possibleWithVividStudio .featuredWrapper .featuredDescription {
+        min-height: auto;
+        height: calc(100% - 56px);
+    }
+}
+@media(max-width:834px){
+    .possibleWithVividStudio .featuredWrapper .featured .featuredDescription h6 {
+        font-size: 19px;
+        line-height: 28.5px;
+    }
+    .possibleWithVividStudio .featuredWrapper .featuredImg img{
+        object-fit: cover;
+    }
+}
+@media(min-width:768px) and (max-width:992px){
+    .peopleTestimony .bg-purple{
+        padding-left: 16px;
+    }
+    .caseStudiesSection.caseStudyThumnail{
+        padding: 120px 0;
+    }
+    .vividStudioBanner h1{
+        font-size: 56px;
+        line-height: 62px;
+    }
+
+     .servicesDetailThumbnail{
+
+        height: auto;
+        /* padding: 80px 20px 0; */
+    }
+    .possibleWithVividStudio h3{
+        font-size: 48px;
+        line-height: 52px;
+    }
+    .possibleWithVividStudio .featuredWrapper .featuredDescription{
+        padding: 24px 20px;
+    }
+    .possibleWithVividStudio .featuredLabel{
+        padding: 20px;
+    }
+    .possibleWithVividStudio .featuredWrapper .featuredImg{
+        min-height: auto;
+        height: 100%;
+        padding: 29px 20px;
+    }    
+    .possibleWithVividStudio{
+        padding-bottom: 40px;
+    }
+    .peopleTestimony .bg-purple .leftSection h6{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .peopleTestimony .bg-purple .leftSection{
+        padding: 20px 0;
+    }
+    .possibleWithVividStudio .featuredWrapper{
+        padding: 0 15px;
+    }
+    .peopleTestimony .bg-purple .leftSection h6{
+        padding-bottom: 65px;
+    }   
+    .bgPurpleFeatures{
+        padding: 100px 0;
+    } 
+    .bgPurpleFeatures .features{
+        padding-bottom: 15px;
+    }
+    .caseStudyThumnail{
+        padding-bottom:0;
+    }
+    .shortSentences{
+        padding-bottom: 120px;
+    }
+    .shortSentences p{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+}
+@media(max-width:768px){
+    .caseStudyThumnail .leftSideContent h4 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .peopleTestimony .bg-purple .leftSection h6 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media(max-width:767px){
+    .peopleTestimony.ourExpertiseSection .authorImage {
+        padding: 0;
+      }
+    h6{
+        padding-top: 10px;
+    }
+    .vividStudioBanner img {
+        display: none;
+    }
+    .vividStudioBanner .sectionLabel,
+    .vividStudioBanner h1, .vividStudioBanner p {
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .servicesDetailsWrapper{
+        padding-top: 56px;
+    }
+    .servicesDetailThumbnail{
+        /* padding:21px 61px 0; */
+    }
+
+    .possibleWithVividStudio{
+        padding-top:0 ;
+        padding-bottom: 20px;
+    }
+    .possibleWithVividStudio .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .possibleWithVividStudio h3{
+        padding-bottom: 40px;
+        font-size: 40px;
+        line-height: 50px;
+        max-width: 304px;
+        margin: 0 auto;
+    }
+    .servicesDetailThumbnail img{
+        /* min-height: 291px;
+        object-fit: cover;
+        width: auto; */
+    }
+    
+    .possibleWithVividStudio .featuredWrapper .featuredImg img{
+        min-height: 174px;
+    }
+    .possibleWithVividStudio .featuredWrapper .featuredImg{
+        min-height: auto;
+        padding: 20px;
+    }
+    .possibleWithVividStudio .featuredLabel, .possibleWithVividStudio .featuredDescription{
+        padding: 24px 20px !important;
+    }
+    .possibleWithVividStudio .featuredDescription{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .possibleWithVividStudio .featuredWrapper{
+        padding: 0 ;
+    }
+    .possibleWithVividStudio .featuredWrapper .featuredDescription{
+        min-height: auto;
+    }
+    .possibleWithVividStudio .featuredWrapper .featured .featuredDescription a{
+        padding-bottom: 16px;
+    }
+    .possibleWithVividStudio .featuredWrapper{
+        margin-bottom: 64px;
+    }
+    
+    .peopleTestimony .bg-purple .leftSection{
+        padding: 16px 0 40px;
+    }
+    .peopleTestimony .bg-purple{
+        padding: 20px 20px 32px;
+    }
+    .peopleTestimony .bg-purple  .authorName .sectionDescription.name{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .peopleTestimony .bg-purple  .authorName .sectionDescription.destination{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .bgPurpleFeatures{
+        padding: 64px 0 104px;
+    }
+    .peopleTestimony{
+        padding-bottom: 96px;
+    }
+    
+    .peopleTestimony .slick-slider button{
+        bottom: -120px;
+    }
+    .bgPurpleFeatures .heading h6{
+        font-size: 22px;
+        line-height: 30px;
+        padding-bottom: 32px;
+        padding-top: 8px;
+    }
+    .peopleTestimony .testimonyImage{
+        /* min-height: 321px;
+        max-height: 321px; */
+        margin: 0 auto;
+    }
+    .peopleTestimony .bg-purple .leftSection h6{
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .bgPurpleFeatures .features{
+        padding-top: 32px;
+        padding-bottom: 0;
+    }
+    .bgPurpleFeatures .featuredDescription{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .bgPurpleFeatures .features h6{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .caseStudiesSection.caseStudyThumnail{
+        padding: 96px 0 159px;
+    }
+    .caseStudyThumnail p{
+        -webkit-line-clamp: 2;
+        /* autoprefixer: off */
+        -webkit-box-orient: vertical;
+        /* autoprefixer: on */
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .caseStudyThumnail .caseStudyListWrapper h4{
+        font-size: 16px !important;
+        line-height: 25px !important;
+    }
+    .caseStudyThumnail  .leftSideContent h4{
+        margin-bottom: 32px;
+    }
+    .caseStudyThumnail .col-md-4{
+        min-height: auto;
+    }
+    .shortSentences{
+        padding-bottom: 120px;
+    }
+    .shortSentences p{
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 32px;
+    }
+    .possibleWithVividStudio .rightSection.featuredImg.borderBeforeAfter::after, .alternatePossibleVividItem .featuredImg::after {
+        border-left: 1px solid #86A2A2;
+    }
+    .possibleWithVividStudio .featuredWrapper .rightSection.borderBeforeAfter:before, .possibleWithVividStudio .alternatePossibleVividItem .rightSection.borderBeforeAfter:before{
+        border-bottom: none;
+    }
+    .shortSentences .leftSideContent h4{
+        margin-bottom: 16px;
+    }
+    .possibleWithVividStudio .rightSection.featuredImg.borderBeforeAfter::after, .alternatePossibleVividItem .featuredImg::after{
+        border-right: 1px solid #86A2A2;
+    }
+    .peopleTestimony .bg-purple  .authorName{
+        position: unset;
+        bottom: auto;
+        margin-bottom: 40px;
+        /* margin-left: 15px; */
+    }
+    .peopleTestimony .bg-purple .leftSection {
+        /* min-height: 970px;  */
+        /* min-height: 787px; */
+    }
+    .peopleTestimony .bg-purple .leftSection h6{
+        padding-bottom: 40px;
+    }
+   
+    .peopleTestimony .col-md-5 .authorImage{
+        margin-right: auto;
+        /* position: absolute; */
+        bottom: 0;
+        width: 100%;
+        left: 0;
+    }
+    .peopleTestimony .slick-slide{
+        padding: 0;
+    }
+    .peopleTestimony .slick-slide .row {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .peopleTestimony .col-md-5{
+        position: relative;
+    }
+    .aboutMarketingSuite {
+        padding: 64px 0 70px;
+        margin-bottom: 96px;
+    }
+    .aboutMarketingSuite .sectionLabel {
+        margin-bottom: 10px;
+    }
+    .aboutMarketingSuite h6 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 28px;
+    }
+}

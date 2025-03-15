@@ -1,0 +1,371 @@
+.bannerSection.newsroomBanner {
+    padding: 90px 0 120px;
+    min-height: unset;
+  }
+  
+  .peachBg {
+    background-color: #FFA191 !important;
+  }
+  
+  .featuredDescription.borderBeforeAfter::before {
+    border-top: 0;
+  }
+  
+  .newsroomBanner .linkwithIcon:hover, 
+  .newsroomBanner .linkwithIcon:hover i::before{ 
+    color: #FFA191;
+    opacity: 1;
+  }
+  
+  .purpleBg {
+    background-color: #220047;
+    color: #fff;
+  }
+  
+  .newsroomBanner h3 {
+    margin-top: 62px;
+    margin-bottom: 62px;
+  }
+  
+  .featuredLabel {
+    position: relative;
+    padding: 32px;
+  }
+  
+  .featuredDescription {
+    position: relative;
+    padding: 32px 32px 80px;
+  }
+  
+  .featuredDescription:before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0;
+    width: calc(100% - 10px);
+    height: 100%;
+    border-bottom: 1px solid #fff;
+    pointer-events: none;
+  }
+  
+  .featuredDescription:after {
+    content: "";
+    position: absolute;
+    height: calc(100% - 10px);
+    width: 100%;
+    top: 5px;
+    left: 0;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    pointer-events: none;
+  }
+  
+  .featuredDescription h6 {
+    font-family: 'Graphik Web', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+  }
+  
+  .featuredDescription p {
+    font-family: 'Graphik Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .blogSection {
+    padding: 104px 0 120px;
+  }
+  
+  .awardsSection {
+    padding-top: 120px;
+    padding-bottom: 154px;
+  }
+  
+  .mw-sm {
+    max-width: 743px;
+  }
+  
+  .awardsSection h4 {
+    font-family: 'Graphik Compact Web', sans-serif;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 68px;
+    color: #220047;
+  }
+  
+  .awardsSection p {
+    font-family: 'Graphik Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #220047;
+  }
+  
+  .pressKitSection {
+    background-color: #220047;
+    padding: 120px 0px;
+  }
+  
+  .pressKitSection label {
+    font-family: 'Graphik Compact Web', sans-serif;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 66px;
+  }
+  
+  .pressKitSection p {
+    font-family: 'Graphik Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  
+  .mw-688 {
+    max-width: 688px;
+  }
+  
+  .greyWrap {
+    background-color: #EBE3D6 !important;
+  }
+  
+  .newsroomBlogSection .customTd {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-align: left;
+  }
+  
+  .newsroomBlogSection .container {
+    /* max-width: 1360px !important; */
+  }
+  
+  .newsroomBlogSection .customRow .customTh:nth-child(3),
+  .newsroomBlogSection .customRow .customTd:nth-child(3) {
+    width: 62%;
+    padding-top: 12px;
+  }
+  
+  .newsroomBlogSection .customRow .customTh:nth-child(2),
+  .newsroomBlogSection .customRow .customTd:nth-child(2) {
+    width: 16%;
+    padding-top: 12px;
+  }
+  
+  .newsroomBlogSection .customRow .customTh:nth-child(1),
+  .newsroomBlogSection .customRow .customTd:nth-child(1) {
+    width: 13%;
+    padding-top: 12px;
+    color: #17012E;
+  }
+  .newsroomBlogSection .filtersWrap{
+    margin-bottom: 60px;
+  }
+  .purpleSection .btn-secondary {
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent !important;
+  }
+  
+  .purpleSection .btn-secondary:hover {
+    color: #FFA191 !important;
+    border-color: #FFA191 !important;
+  }
+  
+  .newsroomBanner a:hover {
+    color: #FFA191 !important;
+  }
+  
+  .newsroomBlogSection .typeWrap {
+    min-height: 29px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  
+  .icon_container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon_container .featured {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .icon_container img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .newsroomBanner p>a {
+    display: initial;
+    color: #fff;
+    font-size: 16px;
+    line-height: 17.6px;
+    font-weight: 500;
+    font-family: 'Graphik Compact Web', sans-serif;
+  }
+  .newsroomBlogSection .customRow .customTd:nth-child(1){
+    padding-top: 20px;
+  }
+  .newsroomBlogSection .customTd h6 {
+    letter-spacing: normal;
+  }
+  .newsroomBlogSection .customRow .customTd:nth-child(4){
+    align-items: flex-start;
+    padding-top: 28px;
+  }
+  @media(max-width: 991px) {
+    .bannerSection.newsroomBanner {
+      height: auto !important;
+    }
+    .purpleBg .bannerSection {
+      padding-top: 72px;
+    }
+    section.newsroomBanner h3 {
+      font-size: 36px;
+      line-height: 62px;
+        margin: 24px auto 40px;
+    }
+    .newsroomBlogSection .customRow .customTh:nth-child(2), 
+    .newsroomBlogSection .customRow .customTd:nth-child(2) {
+      width: 40%;
+      position: absolute;
+      right: 0;
+      padding-top: 0;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .newsroomBlogSection .customRow .customTh:nth-child(1), 
+    .newsroomBlogSection .customRow .customTd:nth-child(1) {
+      width: 55%;
+      padding-top: 8px;
+    }
+    .newsroomBlogSection .customTableStructure .customRow:first-child {
+      display: none !important;
+    }
+    .newsroomBlogSection .customRow .customTh:nth-child(3),
+    .newsroomBlogSection .customRow .customTd:nth-child(3) {
+      display: block !important;
+      width: 100%;
+    }
+    .newsroomBlogSection .customTableStructure .customRow {
+      flex-direction: column;
+    }
+    .newsroomBlogSection .customRow .customTh:nth-child(4), .newsroomBlogSection .customRow .customTd:nth-child(4) {
+      justify-content: flex-start;
+      width: 100%;
+    }
+    .newsroomBlogSection .filtersWrap+ .customRow {
+      display: none !important;
+    }
+    .newsroomBlogSection .customTd h6 {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+    .newsroomBlogSection .customTd:nth-child(3),
+    .newsroomBlogSection .customRow .customTd:nth-child(4) {
+      padding: 0;
+    }
+    .newsroomBanner .featuredDescription {
+      padding: 20px;
+    }
+    .newsroomBlogSection+ .pressKitSection {
+      padding-top: 64px;
+      padding-bottom: 104px;
+    }
+    .awardsSection .icon_container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center !important;
+    }
+    .awardsSection .icon_container img {
+      margin-bottom: 48px;
+    }
+  }
+  @media(max-width: 767px) {
+    .newsroomBlogSection .customRow .customTh:nth-child(2), 
+    .newsroomBlogSection .customRow .customTd:nth-child(2) {
+      right: 20px !important;  
+    }
+    .newsroomBlogSection .customTableStructure .d-flex+ .customRow {
+      display: none;
+    }
+    .awardsSection .col-md-3:nth-child(2) img{
+      margin-bottom: 16px;
+    }
+  
+    .awardsSection h4 {
+      font-size: 40px;
+      line-height: 50px;
+      margin-bottom: 16px;
+    }
+  
+    .pressKitSection .btn-secondary {
+      margin-bottom: 48px;
+    }
+    section.newsroomBanner h3{
+      line-height: 50px;
+    }
+    .newsroomBlogSection .customRow .customTd:first-child{
+      text-align: right;
+      order: 2;
+      width: auto;
+      position: relative;
+      justify-content: flex-end;
+      display: flex;
+      margin-left: auto;
+  }
+  .newsroomBlogSection .customRow .customTd:first-child::before{
+    position: absolute;
+    content: '';
+    width: 24px;
+    height: 1px;
+    background-color: #220047;
+    left: -30px;
+    top: 15px;
+    display: none;
+  }
+  .newsroomBlogSection .customTd h6{
+    margin-top: 0;
+  }
+  .newsroomBlogSection .customRow .customTd:nth-child(2){
+      order: 1;
+      right: auto;
+      left: 0;
+      justify-content: flex-start;
+  }
+  .newsroomBlogSection .customRow .customTd:nth-child(3){
+      order: 3;
+      width: 100%;
+      margin-top: 16px;
+  }
+  .newsroomBlogSection .customTableStructure .customRow{
+    position: relative;
+  }
+  .newsroomBlogSection .customRow .customTd:nth-child(4){
+      order: 4;
+      width: 100%;
+      justify-content: flex-start;
+  }
+  }
+  
+  
+  
+  
+  @media(min-width: 1024px) and (max-width: 1280px) {
+    .newsroomBlogSection .customRow .customTh:nth-child(3), 
+    .newsroomBlogSection .customRow .customTd:nth-child(3) {
+      width: 53% !important;
+    }
+    .newsroomBlogSection .customRow .customTh:nth-child(2),
+    .newsroomBlogSection .customRow .customTd:nth-child(2) {
+      width: 20% !important;
+    }
+  }

@@ -1,0 +1,1636 @@
+.ytp-large-play-button {
+    z-index: 999 !important;
+  }
+  
+  .careerBanner {
+    padding-top: 132px !important;
+    padding-bottom: 88px;
+  }
+
+  
+  .careerBanner .featuredImg {
+    display: block;
+  }
+  .awardsCareers {
+    padding: 111px 0 45px;
+    background-color: #ffa191;
+  }
+  .awardsCareers .awards {
+    margin-bottom: 70px;
+  }
+  .awardsCareers .btn-secondary {
+    font-family: "Graphik Web", sans-serif;
+    line-height: 21px;
+  }
+   .featuredImg p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #220047;
+    margin-bottom: 0;
+  }
+  
+   .featuredLabel {
+    color: #220047;
+  }
+  
+  .careerBanner .featuredWrapper .col-md-6 {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+  
+  .careerBanner .leftSection h1 {
+    font-family: "Graphik Compact Web", sans-serif;
+    font-size: 96px;
+    font-weight: 300;
+    line-height: 112px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #220047;
+  }
+  
+  .careerBanner .leftSection .featuredLabel,
+  .careerBanner .rightSection .featuredLabel {
+    min-height: 117px;
+    padding: 13px;
+  }
+  
+  .careerBanner .leftSection .secondRow .borderBeforeAfter::before,
+  .careerBanner .leftSection .thirdRow .borderBeforeAfter::before {
+    border-top: none;
+  }
+  
+  .careerBanner .leftSection .secondRow .borderBeforeAfter::after {
+    border-right: none;
+  }
+  
+  .careerBanner .leftSection .secondRow .borderBeforeAfter:nth-child(3):after {
+    border-right: 1px solid #86a2a2;
+  }
+  
+  .careerBanner .leftSection .thirdRow .borderBeforeAfter:nth-child(1)::after {
+    border-right: none;
+  }
+  
+  .careerBanner .rightSection .featuredLabel.firstRow .largeText {
+    font-size: 185px;
+    font-weight: 300;
+    line-height: 265px;
+    text-transform: capitalize;
+    position: relative;
+    color: #220047;
+  }
+  .largeMark .featuredLabel {
+    height: 146px;
+    position: relative;
+  }
+  .largeMark .featuredLabel + .featuredLabel {
+    height: 146px;
+  }
+  
+  .careerBanner .rightSection .largeMark .featuredLabel.firstRow {
+    position: relative;
+  }
+  .careerBanner
+    .rightSection
+    .largeMark
+    .featuredLabel.firstRow
+    + .featuredLabel.firstRow.borderBeforeAfter::before {
+    border-bottom: 1px solid #86a2a2;
+  }
+  .careerBanner .rightSection .featuredLabel.secondRow.borderBeforeAfter::before {
+    border-top: none;
+  }
+  .careerBanner .rightSection .largeMark .featuredLabel.firstRow .largeText {
+    font-size: 185px;
+    font-weight: 300;
+    line-height: 265px;
+    text-transform: capitalize;
+    position: relative;
+    color: #220047;
+    position: absolute;
+    width: calc(100% - 10px);
+    left: 5px;
+    top: 0;
+  }
+  .largeText span {
+    background: #e4eaea;
+    position: relative;
+    z-index: 1;
+    font-family: "Graphik Compact Web", sans-serif;
+  }
+  
+  .careerBanner .leftSection .secondRow .col-md-6.borderBeforeAfter::before {
+    width: 100%;
+  }
+  .careerBanner
+    .leftSection
+    .secondRow
+    .col-md-3:nth-child(1).borderBeforeAfter::before,
+  .careerBanner
+    .leftSection
+    .thirdRow
+    .col-md-6:first-child.borderBeforeAfter::before {
+    width: 100%;
+  }
+  .careerBanner
+    .leftSection
+    .secondRow
+    .col-md-3:nth-child(2).borderBeforeAfter::before {
+    width: 95%;
+  }
+  
+  .careerBanner .rightSection .featuredLabel.firstRow.borderBeforeAfter::after {
+    border-left: none;
+  }
+  
+  .careerBanner .rightSection .featuredLabel.secondRow.borderBeforeAfter::after {
+    border-left: none;
+  }
+  
+  .careerBanner .btn-secondary {
+    font-family: "Graphik Web";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 21px;
+  }
+  
+  .careerBanner .featuredImg .featuredDescription {
+    display: block;
+    padding: 29px 24px 24px 19px;
+    min-height: auto;
+  }
+  
+  .careerBanner .featuredImg img {
+    max-width: 100% !important;
+    min-height: auto;
+    max-height: unset;
+    border-radius: 10px;
+  }
+  
+  .featuredImg .featuredDescription:before {
+    border-top: none;
+  }
+  .hearFromUs {
+    padding-bottom: 192px;
+  }
+  .careerBanner .rightSection .featuredLabel.firstRow.borderBeforeAfter::before {
+    border-bottom: none;
+  }
+  
+  .awardsCareers h3 {
+    padding-bottom: 16px;
+    font-size: 56px;
+    line-height: 68px;
+  }
+  
+  .awardsCareers .featured {
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+  }
+  
+  .awardsCareers .featured img {
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  .bgPurpleValues {
+    background-color: #220047;
+    padding: 120px 0 168px;
+  }
+  .ourExpertiseSection .bgpeachHearUs h6 {
+    max-width: 95%;
+  }
+  .aboutVividco.videoSection {
+    color: #220047;
+    padding: 206px 0 18px;
+  }
+  .aboutVividco.videoSection img.img-fluid {
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .aboutVividco.videoSection  h2 {
+    font-size: 88px;
+    line-height: 103px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+  
+  .aboutVividco.videoSection h5 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  
+  .aboutVividco.videoSection p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .aboutVividco.videoSection.diversityThirdVideo p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .aboutVividco.videoSection .videoWrapper {
+    position: relative;
+  }
+  
+  .aboutVividco.videoSection .videoWrapper  {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    gap: 32px;
+  }
+  
+  .aboutVividco.videoSection .videoWrapper  .btn-play {
+    background-color: #220047;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .aboutVividco.videoSection .videoWrapper  .btn-play:hover {
+    background-color: #fff;
+    color: #220047;
+  }
+  
+  .aboutVividco.videoSection
+    .videoWrapper
+    .btn-play:hover
+    svg
+    path {
+    fill: #220047;
+  }
+  
+  .bgPurpleValues .leftSideContent label,
+  .bgPurpleValues .leftSideContent h4 {
+    color: #fff;
+  }
+  
+  .bgPurpleValues .serviceContentWrapper .accordion-button {
+    color: #fff;
+  }
+  
+  .bgPurpleValues .serviceContentWrapper .icon-expandIcon:before,
+  .bgPurpleValues .serviceContentWrapper .icon-collapseIcon:before {
+    color: #fff;
+  }
+  
+  .bgPurpleValues .serviceContentWrapper .accordion-collapse {
+    color: #fff;
+  }
+  
+  .bgPurpleValues .serviceContentWrapper .accordion-item {
+    border-color: #fff;
+  }
+  
+  .bgpeachHearUs {
+    background-color: #ffa191;
+    padding: 16px 4px 16px 56px;
+  }
+  
+  .bgpeachHearUs .authorName {
+    padding-top: 90px;
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+  }
+  .bgpeachHearUs .authorName a {
+    display: flex;
+  }
+  
+  .bgpeachHearUs .testimonyImage {
+    /* object-fit: cover; */
+    border-radius: 10px;
+    /* max-height: 464px; */
+    /* max-width: 413px; */
+    max-width: 100%;
+    margin-left: auto;
+    padding: 40px 40px 40px 0;
+  }
+  
+  .bgpeachHearUs .leftSection {
+    padding: 40px 0;
+    padding-bottom: 110px;
+  }
+  
+  .bgpeachHearUs .slick-arrow {
+    bottom: -140px;
+    left: -60px;
+  }
+  
+  .bgpeachHearUs .slick-next {
+    left: -21px !important;
+  }
+  
+  .bgpeachHearUs .slider__counter {
+    display: none;
+  }
+  
+  .bgpeachHearUs .leftSection .sectionLabel {
+    padding-bottom: 16px;
+  }
+  
+  .bgpeachHearUs .slick-slider {
+    padding-bottom: 0;
+  }
+  
+  .bgpeachHearUs .authorName .semiBold {
+    font-weight: 500;
+    padding-bottom: 4px;
+    line-height: 25px;
+  }
+  
+  .bgpeachHearUs .authorName .linkedIn i:hover::before {
+    color: #220047 !important;
+    opacity: 0.7;
+  }
+  
+  .puttingFun {
+    background-color: #ebe3d6;
+    padding: 120px 0 112px;
+  }
+  
+  .puttingFun h3 {
+    padding-bottom: 64px;
+  }
+  
+  .puttingFun .featuredWrapper .borderBeforeAfter:before,
+  .puttingFun .featuredWrapper .borderBeforeAfter:after,
+  .puttingFun .featuredWrapper .featuredDescription:before,
+  .puttingFun .featuredWrapper .featuredDescription:after {
+    border-color: #6b5746;
+  }
+  
+  .puttingFun h5 {
+    color: #f95b66;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+  
+  .puttingFun .featuredWrapper .featuredDescription {
+    padding: 30px 25px 30px 45px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    min-height: 263px;
+    height: 100%;
+  }
+  
+  .puttingFun .featuredWrapper .featuredDescription img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .puttingFun .featuredWrapper .col-md-4:first-child .featuredDescription:before,
+  .puttingFun .featuredWrapper .col-md-4:nth-child(2) .featuredDescription:before,
+  .puttingFun
+    .featuredWrapper
+    .col-md-4:nth-child(3)
+    .featuredDescription:before {
+    border-top: 1px solid #6b5746;
+  }
+  
+  .puttingFun .featuredWrapper .col-md-4:nth-child(5) .featuredDescription:after,
+  .puttingFun .featuredWrapper .col-md-4:nth-child(2) .featuredDescription:after,
+  .puttingFun .featuredWrapper .col-md-4:nth-child(8) .featuredDescription:after {
+    border-left: none;
+    border-right: none;
+  }
+  
+  .puttingFun .featuredDescription p {
+    margin-bottom: 0;
+    color: #220047;
+    text-align: left;
+    max-width: unset;
+  }
+  
+  .programSection {
+    padding: 120px 0;
+  }
+  .programSection .purpleText a {
+    color: #220047;
+  }
+  .programSection .purpleText a:hover {
+    opacity: 0.7;
+  }
+  
+  .featuredWrapper .col-md-6 {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+  }
+
+  
+  .borderBeforeAfter::before,
+  .borderBeforeAfter::after,
+  .featuredDescription:before,
+  .featuredDescription:after {
+    border-color: #86a2a2;
+  }
+  
+   .borderBeforeAfter::before {
+    border-top: none;
+  }
+  
+  .featuredImg img {
+    max-width: fit-content;
+    min-height: 456px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .featuredDescription:before {
+    border-top: 1px solid #86a2a2;
+  }
+  
+  .featuredWrapper .featuredDescription {
+    min-height: 520px;
+  }
+  
+  .featuredWrapper,
+  .puttingFun .featuredWrapper {
+    padding: 0;
+  }
+  
+  .featuredImg {
+    padding: 32px;
+  }
+  
+   .featuredDescription {
+    min-height: 124px;
+  }
+  
+   .featuredDescription:before {
+    border-top: none;
+    border-bottom: 1px solid #86a2a2;
+  }
+  
+   .featuredImg ul li {
+    list-style-type: disc;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+   .featuredImg {
+    min-height: 192px;
+  }
+  
+   .featuredImg.borderBeforeAfter::before {
+    border-bottom: 1px solid #86a2a2;
+  }
+  
+   .featuredImg.borderBeforeAfter::after {
+    border-right: 1px solid #86a2a2;
+    border-left: none;
+  }
+  .careerSubBanner .btn-secondary {
+    margin-bottom: 38px;
+  }
+  .careerSubPageWrap .aboutVividco.videoSection {
+    padding: 0 0 80px;
+    margin-top: -310px;
+  }
+  
+  .careerSubPageWrap .aboutVividco.videoSection.secondVideo {
+    padding: 0 0 50px;
+  }
+  
+  .careerSubPageWrap .upskillBorderBox {
+    /* padding: 92px 0 0; */
+    margin-bottom: 112px;
+  }
+  .careerSubPageWrap .upskillBorderBox .featured {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .careerSubPageWrap .upskillBorderBox .featuredLabel label {
+    text-transform: uppercase;
+    color: #220047;
+  }
+  .careerSubPageWrap .upskillBorderBox .borderBeforeAfter::before,
+  .careerSubPageWrap .upskillBorderBox .borderBeforeAfter::after,
+  .careerSubPageWrap .upskillBorderBox .featuredDescription:before,
+  .careerSubPageWrap .upskillBorderBox .featuredDescription::after {
+    border-color: #86a2a2;
+  }
+  .careerSubPageWrap
+    .upskillBorderBox
+    .firstRow.featuredWrapper
+    .featuredDescription {
+    min-height: auto;
+    height: calc(100% - 80px);
+  }
+  .careerSubPageWrap .upskillBorderBox .firstRow .featuredImg {
+    min-height: auto;
+  }
+  .careerSubPageWrap .upskillBorderBox .firstRow .featuredImg p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .careerSubPageWrap
+    .upskillBorderBox
+    .firstRow
+    .featuredImg.borderBeforeAfter::after {
+    border-left: none;
+    border-right: 1px solid #86a2a2;
+  }
+  .imgWithInfoWrap img {
+    border-radius: 10px;
+    margin-bottom: 32px;
+  }
+  .imgWithInfoWrap h4 {
+    color: #220047;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+  }
+  .imgWithInfoWrap p {
+    color: #220047;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  /* .imgWithInfoWrap .row .col-md-4:nth-child(1) {
+    margin-bottom: 75px;
+  } */
+  .imgWithInfoWrap .row.upDown .col-lg-5:nth-child(2) {
+    margin-top: 75px;
+  }
+  .imgWithInfoWrap .row {
+    margin-bottom: 50px;
+  }
+  .videoPadding {
+    padding-bottom: 440px;
+  }
+  .videoPadding .serviceContentWrapper {
+    margin-top: -10px;
+  }
+  .certificateWrap {
+    padding-bottom: 100px;
+  }
+  .certificateWrap h5 {
+    color: #220047;
+    margin-bottom: 70px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .certificateWrap h6 {
+    color: #220047;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; /* 188.889% */
+    text-align: center;
+    margin-top: 9px;
+  }
+  .certificateWrap .level {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .certificateWrap .level img {
+    width: 71px;
+  }
+  .outcomesWrap {
+    padding: 70px 0 100px;
+    color: var(--Purple, #220047);
+    background: #c9def4;
+  }
+  .outcomesWrap .headingWrap {
+    margin-bottom: 80px;
+  }
+  .outcomesWrap h4,
+  .coachTestimonialWrap h4,
+  .videoSection h4 {
+    text-align: center;
+    font-family: "Graphik Compact Web", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 68px;
+    margin-bottom: 16px;
+  }
+  .outcomesWrap p,
+  .coachTestimonialWrap p {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+  }
+  .outcomesWrap .box {
+    background: #afeddf;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+    text-align: center;
+    /* height: 100%; */
+  }
+  .outcomesWrap .box h1 {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: "Graphik Compact Web", sans-serif;
+    line-height: 108px;
+    margin-bottom: 16px;
+  }
+  .outcomesWrap .box p {
+    line-height: 28px;
+  }
+  .outcomesWrap .col-md-4:nth-child(2) .box {
+    background: #ffc5cf;
+    margin-top: 100px;
+  }
+  .outcomesWrap .col-md-4:nth-child(3) .box {
+    background: #ebe3d6;
+  }
+  .coachTestimonialWrap {
+    padding: 71px 0 104px;
+    color: var(--Purple, #220047);
+  }
+  .coachTestimonialWrap p {
+    margin-bottom: 40px;
+  }
+  .coachTestimony {
+  }
+  .coachTestimony .slick-list {
+    border-radius: 10px;
+    background: #c9def4;
+  }
+  .coachTestimony .slide {
+    color: var(--Purple, #220047);
+    padding: 48px 64px 24px;
+  }
+  .coachTestimony .title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    padding: 24px;
+    word-break: normal;
+  }
+  .coachTestimony .description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .coachTestimony h6 {
+    font-family: "Graphik Compact Web", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 133.333% */
+    padding: 20px 50px;
+    margin-bottom: 0;
+    word-break: normal;
+  }
+  .coachTestimony h4.name {
+    font-family: "Graphik Compact Web", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 68px;
+    margin: 10px 0;
+    text-align: left;
+    padding-left: 4px;
+  }
+  .coachTestimony .designation {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    padding-left: 4px;
+  }
+  .coachTestimony .coachImg {
+    margin-left: -0.75rem;
+    margin-bottom: 1.75rem;
+    border-radius: 10px;
+  }
+  .coachTestimony .borderBeforeAfter {
+    position: relative;
+  }
+  .coachTestimony .borderBeforeAfter::before {
+    border-bottom: 1px solid #478bdb;
+    border-top: 1px solid #478bdb;
+  }
+  .coachTestimony .borderBeforeAfter::after {
+    border-left: 1px solid #478bdb;
+    border-right: 1px solid #478bdb;
+  }
+  .borderLeft,
+  .borderBottom {
+    position: relative;
+  }
+  .borderLeft::after {
+    content: "";
+    position: absolute;
+    height: calc(100% - 10px);
+    width: 100%;
+    top: 5px;
+    left: 0;
+    border-left: 1px solid #478bdb;
+    pointer-events: none;
+  }
+  
+  .borderRight::after {
+    content: "";
+    position: absolute;
+    height: calc(100% - 10px);
+    width: 100%;
+    top: 5px;
+    left: 0;
+    border-right: 1px solid #478bdb;
+    pointer-events: none;
+  }
+  .borderBottom::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0;
+    width: calc(100% - 10px);
+    height: 100%;
+    border-bottom: 1px solid #478bdb;
+    pointer-events: none;
+  }
+  
+  .coachTestimony .borderBeforeAfter.borderBottomNone::before {
+    border-bottom: none;
+  }
+  .coachTestimony .borderBeforeAfter.borderTopNone::before {
+    border-top: none;
+  }
+  
+  .coachTestimony .borderBeforeAfter.borderLeftNone::after {
+    border-left: none;
+  }
+  .coachTestimony .nameDesignation {
+    width: unset;
+    min-width: 50%;
+    position: relative;
+    padding-right: 16px;
+  }
+  .coachTestimony .topRightGap {
+    background: #c9def4;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+  .coachTestimony .contentWrap {
+    border-top: none;
+    padding-top: 0;
+  }
+  .coachTestimony  {
+    margin-top: 19px;
+    margin-right: 12px;
+  }
+  .coachTestimonialWrap .autoplay button,
+  .coachTestimonialWrap .slider button {
+    left: 0;
+  }
+  .aboutVividco.videoSection.diversitySecondVideo,
+  .aboutVividco.videoSection.diversityThirdVideo {
+    margin-top: 0;
+    background: #ffa191;
+    padding: 120px 0 112px;
+  }
+  .aboutVividco.videoSection.diversityThirdVideo {
+    background: #afeddf;
+    padding: 120px 0 120px;
+    margin-bottom: 120px;
+  }
+  
+  .imgWithInfoWrap .row .col-md-9:nth-child(2) {
+    margin-left: 16.66666667%;
+    margin-top: 96px;
+  }
+  .imgWithInfoWrap {
+    margin-bottom: 100px;
+  }
+  .threeImageSliderWrap {
+    background: var(--Purple, #220047);
+    padding: 120px 0 112px;
+    margin-bottom: 120px;
+  }
+  .threeImageSliderWrap .col-md-4 .imgWrap {
+    padding: 32px 12px;
+  }
+  .threeImageSliderWrap .col-md-4 img {
+    border-radius: 10px;
+    /* position: relative; */
+  }
+  .threeImageSliderWrap .borderBeforeAfter {
+    position: relative;
+  }
+  .threeImageSliderWrap .titleWrap h6 {
+    font-family: "Graphik Web", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 114.286% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 32px 12px;
+    margin-bottom: 0;
+    color: #fff;
+  }
+  .threeImageSliderWrap .autoplay button,
+  .threeImageSliderWrap .slider button,
+  .mobImageSliderWrap .autoplay button,
+  .mobImageSliderWrap .slider button {
+    left: 0;
+  }
+  .threeImageSliderWrap .bigSpace {
+    height: 160px;
+  }
+  .threeImageSliderWrap .smallSpace {
+    height: 80px;
+  }
+  .threeImageSliderWrap .borderLeftNone::after {
+    border-left: none;
+  }
+  
+  .threeImageSliderWrap .borderTopNone::before {
+    border-top: none;
+  }
+  .threeImageSliderWrap .topRightGap {
+    background: var(--Purple, #220047);
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }
+  .threeImageSliderWrap .topLeftGap {
+    background: var(--Purple, #220047);
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+  }
+  .threeImageSliderWrap .slider__counter,
+  .mobImageSliderWrap .slider__counter {
+    color: #fff;
+  }
+  
+  @media (min-width: 1200px) {
+    .coachTestimony .imgWrap {
+      width: 280px;
+      flex-shrink: 0;
+    }
+    .coachTestimony .contentWrap {
+      width: calc(100% - 280px);
+      flex-grow: 1;
+      border-top: none;
+      padding-top: 0;
+    }
+  }
+  @media (max-width: 1366px) {
+     .featuredImg ul li {
+      font-size: 17px;
+    }
+  
+    .puttingFun h5 {
+      font-size: 34px;
+    }
+  
+    .programSection.leftSideContent h4 {
+      font-size: 52px;
+    }
+  
+     .featuredDescription {
+      min-height: 152px;
+    }
+  }
+  @media (max-width: 1199px) {
+    .puttingFun .featuredWrapper .featuredDescription {
+      padding: 60px 15px 65px 15px;
+    }
+  
+    .puttingFun h5 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  
+     .featuredDescription {
+      min-height: 180px;
+    }
+    .bgpeachHearUs .testimonyImage {
+      /* min-width: auto;
+      margin-left: auto; */
+    }
+    .coachTestimony h6 {
+      font-size: 20px;
+      line-height: 30px;
+      padding: 20px;
+    }
+    .coachTestimony h4.name {
+      font-size: 46px;
+      font-weight: 300;
+      line-height: 58px;
+      margin: 10px 0;
+    }
+    .careerSubBanner {
+      padding: 160px 0 210px;
+    }
+    .careerSubPageWrap .aboutVividco.videoSection {
+      margin-top: -210px;
+    }
+    .careerSubPageWrap .aboutVividco.videoSection.diversitySecondVideo {
+      margin-top: 0px;
+    }
+    .careerSubPageWrap .aboutVividco.videoSection.diversityThirdVideo {
+      margin-top: 0px;
+    }
+    .imgWithInfoWrap {
+      margin-bottom: 80px;
+    }
+  
+    .videoPadding {
+      padding-bottom: 320px;
+    }
+    .coachTestimony .justify-content-end.borderBeforeAfter {
+      justify-content: flex-start !important;
+    }
+  }
+  @media (max-width: 1024px) {
+    .bgpeachHearUs .authorName {
+      padding-top: 40px;
+    }
+    .bgpeachHearUs .leftSection h6 {
+      min-height: 300px;
+    }
+    .ourExpertiseSection .bgpeachHearUs h6 {
+      font-size: 26px;
+      line-height: 35px;
+    }
+  
+    .featuredImg img {
+      min-height: auto;
+    }
+  
+    .featuredWrapper .featuredDescription {
+      min-height: 468px;
+    }
+  
+     .featuredDescription {
+      min-height: 180px;
+    }
+  
+    .bgpeachHearUs {
+      padding-left: 16px;
+    }
+  
+    .bgpeachHearUs .slick-arrow {
+      left: -20px;
+    }
+  
+    .bgpeachHearUs .slick-next {
+      left: 35px !important;
+    }
+  }
+  @media (max-width: 991px) {
+    .responsive-iframe {
+      min-width: unset !important;
+    }	
+    .careerBanner .rightSection .largeMark .featuredLabel.firstRow .largeText {
+      font-size: 145px;
+    }
+    .largeMark .featuredLabel {
+      height: 133px;
+      position: relative;
+    }
+    .largeMark .featuredLabel + .featuredLabel {
+      height: 134px;
+    }
+    .careerBanner .rightSection .featuredLabel.firstRow .largeText {
+      font-size: 130px;
+      line-height: 240px;
+    }
+  
+    .careerBanner .leftSection h1 {
+      font-size: 80px;
+      line-height: 100px;
+    }
+  
+    .careerBanner .featuredImg {
+      min-height: auto;
+    }
+  
+    .awardsCareers h3,
+    .puttingFun h3 {
+      font-size: 62px;
+      line-height: 72px;
+    }
+  
+    .awardsCareers {
+      padding: 80px 0;
+    }
+  
+    .bgPurpleValues .leftSideContent h4 {
+      font-size: 45px;
+      line-height: 55px;
+    }
+  
+    .bgPurpleValues .serviceContentWrapper .accordion-item {
+      padding: 25px 0;
+    }
+  
+    .bgPurpleValues {
+      padding: 120px 0;
+    }
+  
+     .featuredImg ul li {
+      font-size: 15px;
+    }
+  
+    .ourExpertiseSection .bgpeachHearUs h6 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  
+     .featuredDescription {
+      min-height: calc(100% - 96px);
+    }
+      
+     .featured {
+      height: 100%
+    }
+  
+    .bgpeachHearUs .leftSection {
+      padding: 30px 0;
+  /*     padding-bottom: 75px; */
+    }
+  
+    .puttingFun h3 {
+      padding-bottom: 35px;
+    }
+  
+    .puttingFun .featuredWrapper .featuredDescription {
+      padding: 45px 15px;
+    }
+  
+    .puttingFun h5 {
+      font-size: 23px;
+      line-height: 30px;
+    }
+  
+    .careerBanner .featuredWrapper .featuredDescription {
+      min-height: auto;
+    }
+  
+    .ourExpertiseSection {
+      padding: 120px 0;
+    }
+  
+    .careerBanner .featuredWrapper {
+      padding: 0 !important;
+    }
+    .coachTestimony .slide {
+      padding: 16px 29px;
+    }
+    .coachTestimony .title {
+      font-size: 16px;
+      line-height: 23px;
+      padding: 16px 0;
+    }
+    .borderRight.mobileNone::after {
+      display: none;
+    }
+    .coachTestimony  {
+      margin-top: 16px;
+      margin-right: 5px;
+      margin-bottom: 16px;
+    }
+    .coachTestimony h6 {
+      font-size: 16px;
+      line-height: 24px;
+      padding: 20px 4px;
+      margin-bottom: 0;
+      text-align: center;
+    }
+    .coachTestimony h4.name {
+      font-size: 40px;
+      line-height: 50px;
+      margin: 10px 0 8px;
+    }
+    .coachTestimony .topRightGap {
+      display: none;
+    }
+    .coachTestimony .coachImg {
+      max-width: calc(100% + 10px);
+      margin-bottom: 1rem;
+    }
+  
+    .videoPadding {
+      padding-bottom: 320px;
+    }
+    .outcomesWrap .box h1 {
+      font-size: 72px;
+      line-height: 85px;
+    }
+    .outcomesWrap .box {
+      height: auto !important;
+    }
+  }
+  @media (max-width: 767px) {
+    .featuredImg img {
+      max-height: 250px;
+    }
+  
+    .featuredImg {
+      min-height: auto;
+    }
+  
+    .featuredWrapper .featuredDescription {
+      min-height: 275px;
+    }
+  
+    .featuredWrapper .featuredDescription {
+      min-height: 180px;
+    }
+  
+    .careerBanner {
+      padding-top: 74px !important;
+      padding-bottom: 20px;
+    }
+     .featuredImg p {
+      font-size: 16px;
+      line-height: 27.5px;
+      color: #220047;
+      margin-bottom: 0;
+    }
+    .featuredImg {
+      padding: 20px;
+    }
+    .careerBanner .featuredImg img {
+      max-height: fit-content;
+    }
+    .careerSubBanner {
+      padding: 128px 0 85px;
+      padding-bottom: calc((56.24vw / 2) + -12px);
+    }
+    .careerSubPageWrap .aboutVividco.videoSection {
+      margin-top: calc((-56.24vw / 2) + 12px);
+      padding: 0 0 80px;
+    }
+    .bannerSection.careerSubBanner {
+      min-height: unset;
+    }
+    .careerSubPageWrap
+      .upskillBorderBox
+      .firstRow
+      .featuredImg.borderBeforeAfter::after {
+      /* border-left: none; */
+      border-left: 1px solid #86a2a2;
+    }
+    .careerSubPageWrap .upskillBorderBox .firstRow .featuredImg::before {
+      border-top: none;
+    }
+    .careerSubPageWrap .featuredLabel {
+      padding: 20px;
+    }
+    .careerSubPageWrap .featuredImg {
+      padding: 20px;
+    }
+    .careerSubPageWrap .upskillBorderBox .firstRow .featuredImg p {
+      font-size: 16px;
+      line-height: 27px;
+    }
+    .careerSubPageWrap .upskillBorderBox {
+      margin-bottom: 72px;
+    }
+    .imgWithInfoWrap img {
+      margin-bottom: 24px;
+    }
+    .imgWithInfoWrap h4 {
+      margin-bottom: 10px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+    .imgWithInfoWrap .row {
+      margin-bottom: 40px;
+    }
+    .imgWithInfoWrap .row .col-lg-5:nth-child(2) {
+      margin-top: 40px;
+    }
+    .bgPurpleValues.videoPadding {
+      padding-bottom: calc((56.24vw / 2) + 30px);
+    }
+    .aboutVividco.videoSection {
+      /* margin-top: calc((-56.24vw / 2) + 12px); */
+    }
+    .careerSubPageWrap .aboutVividco.videoSection.secondVideo {
+      padding: 0 0 40px;
+    }
+  
+    .certificateWrap h5 {
+      margin-bottom: 46px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+    .certificateWrap .level {
+      margin-bottom: 40px;
+    }
+    .certificateWrap {
+      padding-bottom: 30px;
+    }
+    .careerSubPageWrap .outcomesWrap {
+      padding: 70px 0;
+    }
+    .outcomesWrap h4,
+    .coachTestimonialWrap h4,
+    .videoSection h4 {
+      font-size: 40px;
+      line-height: 50px;
+      margin-bottom: 8px;
+    }
+    .outcomesWrap .headingWrap {
+      margin-bottom: 48px;
+    }
+    .outcomesWrap p {
+      margin-bottom: 0;
+    }
+    .outcomesWrap .col-md-4 .box,
+    .outcomesWrap .col-md-4:nth-child(2) .box {
+      margin-top: 24px;
+    }
+    .coachTestimonialWrap p {
+      margin-bottom: 48px;
+    }
+    .coachTestimonialWrap {
+      padding-bottom: 40px;
+    }
+  }
+  @media (max-width: 767px) {
+    .puttingFun
+      .featuredWrapper
+      .col-md-4:nth-child(2)
+      .featuredDescription:before {
+      border-top: none;
+    }
+  
+    .puttingFun
+      .featuredWrapper
+      .col-md-4:nth-child(2)
+      .featuredDescription:after,
+    .puttingFun
+      .featuredWrapper
+      .col-md-4:nth-child(5)
+      .featuredDescription:after,
+    .puttingFun
+      .featuredWrapper
+      .col-md-4:nth-child(8)
+      .featuredDescription:after {
+      border-left: 1px solid #937961;
+      border-right: 1px solid #937961;
+    }
+  
+     .featuredImg.borderBeforeAfter::after {
+      border-left: 1px solid #86a2a2;
+    }
+  
+    .featuredImg::after {
+      border-right: 1px solid #86a2a2;
+    }
+  
+    .puttingFun h5 {
+      font-size: 32px;
+      line-height: 39px;
+    }
+  
+    .puttingFun .featuredWrapper .featuredDescription {
+      padding: 24px 30px 32px 24px;
+      min-height: auto;
+    }
+  
+    .puttingFun h3 {
+      font-size: 40px;
+      line-height: 50px;
+      padding-bottom: 56px;
+    }
+  
+    .puttingFun {
+      padding: 64px 0 120px;
+    }
+  
+    .programSection .container,
+    .hearFromUs .container,
+    .container,
+    .bgPurpleValues .container,
+    .awardsCareers .container,
+    .aboutVividco.videoSection .container {
+      padding: 0 20px;
+    }
+  
+    .hearFromUs {
+      padding: 46px 0 104px !important;
+    }
+  
+    .ourExpertiseSection .bgpeachHearUs h6 {
+      font-size: 22px;
+      line-height: 34px;
+    }
+  
+    .bgpeachHearUs .leftSection {
+      padding-bottom: 40px;
+    }
+  
+    .bgpeachHearUs {
+      padding: 0 17px 32px;
+    }
+  
+    .bgpeachHearUs .authorName .sectionDescription {
+      margin-left: 0;
+    }
+    .bgpeachHearUs .slide .col-md-7,
+    .bgpeachHearUs .slide .col-lg-4 {
+      flex-grow: 1;
+      display: flex;
+    }
+    .bgpeachHearUs .slide .col-md-7 .leftSection,
+    .bgpeachHearUs .slide .col-lg-4 .leftSection {
+      position: relative;
+      padding-bottom: 115px;
+    }
+    .bgpeachHearUs .slide .col-md-7 .leftSection .authorName,
+    .bgpeachHearUs .slide .col-lg-4 .leftSection .authorName {
+      position: absolute;
+      bottom: 40px;
+      width: 100%;
+      display: block;
+    }
+  
+    .programSection {
+      padding: 56px 0 72px;
+    }
+  
+    .featuredWrapper .featuredDescription {
+      display: none;
+    }
+  
+    .featuredImg img {
+      max-height: max-content;
+    }
+  
+    .featuredImg {
+      padding: 15px 20px;
+    }
+  
+     .featuredImg ul li {
+      font-size: 18px;
+      line-height: 27px;
+      padding-bottom: 17px;
+    }
+  
+     .featuredImg {
+      padding-left: 20px;
+    }
+  
+     .featuredLabel {
+      padding-left: 20px;
+    }
+  
+    .featuredImg img {
+      max-height: max-content;
+      max-width: inherit;
+    }
+  
+    .bgPurpleValues .serviceContentWrapper {
+      padding-top: 32px;
+    }
+  
+    .bgPurpleValues .leftSideContent h4,
+    .awardsCareers h3 {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    .programSection .leftSideContent {
+      margin-bottom: 56px;
+    }
+    .bgPurpleValues {
+      padding: 64px 0;
+    }
+  
+    .awardsCareers .featured {
+      text-align: center;
+      margin: 32px auto 0;
+    }
+  
+    .awardsCareers {
+      padding: 39px 0 31px;
+    }
+    .awardsCareers h3 {
+      max-width: 90%;
+    }
+    .aboutVividco.videoSection {
+      padding: 99px 0 3px;
+    }
+    .aboutVividco.videoSection p {
+      margin-bottom: 0;
+    }
+    .aboutVividco.videoSection h5,
+    .aboutVividco.videoSection p {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  
+    .aboutVividco.videoSection p {
+      line-height: 24px;
+    }
+  
+    /* .aboutVividco.videoSection .videoWrapper iframe {
+      height: 423px;
+    } */
+  
+    .careerBanner .leftSection h1 {
+      font-size: 40px;
+      line-height: 50px;
+    }
+  
+    .careerBanner .leftSection .emptycolumn.borderBeforeAfter::after {
+      border-left: none;
+      border-right: none;
+    }
+  
+    .careerBanner .featuredWrapper .featuredDescription {
+      display: block;
+      padding: 20px;
+    }
+  
+    .careerBanner .featuredImg {
+      padding: 15px 0;
+    }
+  
+    .careerBanner .featuredWrapper {
+      padding: 0 !important;
+    }
+  
+    .careerBanner .leftSection {
+      padding: 0 13px !important;
+    }
+  
+    .careerBanner .leftSection .featuredLabel {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .largeText {
+      font-size: 40px;
+      line-height: 50px;
+      font-family: "Graphik Web", sans-serif;
+      font-weight: 300;
+    }
+  
+    .careerBanner .leftSection .thirdRow .featuredLabel {
+      min-height: 70px;
+    }
+  
+    .careerBanner .featuredWrapper .featuredImg {
+      display: block;
+    }
+  
+    .careerBanner .featuredWrapper .featuredImg .featuredDescription img {
+      width: 100%;
+    }
+  
+    .bgpeachHearUs .testimonyImage {
+      width: 413px;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0;
+      /* max-height: 321px;
+      width: 100%; */
+    }
+    .bgpeachHearUs .flexGrowMobile {
+      flex-grow: 1;
+    }
+    .bgpeachHearUs .row {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .bgpeachHearUs .slick-arrow {
+      left: -20px;
+      bottom: -120px;
+    }
+  
+    .bgpeachHearUs .slick-next {
+      left: 21px !important;
+    }
+  
+    .bgpeachHearUs .authorName .sectionDescription {
+      max-width: 100%;
+    }
+    .careerBanner
+      .leftSection
+      .thirdRow
+      .col-6.featuredLabel.borderBeforeAfter::after {
+      border-left: none;
+    }
+    .mobImageSliderWrap {
+      background: var(--Purple, #220047);
+      padding: 64px 0 104px;
+      margin-bottom: 80px;
+    }
+  
+    .mobImageSliderWrap .imgWrap {
+      padding: 20px 8px;
+    }
+  
+    .mobImageSliderWrap .img-fluid {
+      width: 400px;
+      display: block;
+      margin: auto;
+      border-radius: 10px;
+    }
+    .mobImageSliderWrap .borderBeforeAfter {
+      position: relative;
+    }
+    .mobImageSliderWrap .bigSpace {
+      height: 62px;
+    }
+    .mobImageSliderWrap .borderTopNone::before {
+      border-top: none;
+    }
+    .mobImageSliderWrap .titleWrap h6 {
+      font-family: "Graphik Web", sans-serif;
+      padding: 24px 8px;
+      margin-bottom: 0;
+      color: #fff;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 23px; /* 164.286% */
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .aboutVividco.videoSection.diversitySecondVideo,
+    .aboutVividco.videoSection.diversityThirdVideo {
+      margin-top: 0;
+      padding-top: 64px;
+    }
+    .imgWithInfoWrap .row .col-md-9:nth-child(2) {
+      margin-left: 0;
+    }
+    .imgWithInfoWrap .row .col-md-9 {
+      margin-bottom: 40px;
+    }
+    .imgWithInfoWrap {
+      margin-bottom: 88px;
+    }
+    .imgWithInfoWrap .row .col-md-9:nth-child(2) {
+      margin-top: 40px;
+    }
+    .imgWithInfoWrap .row .col-md-9 {
+      margin-bottom: 0px;
+    }
+    .aboutVividco.videoSection.diversityThirdVideo {
+      margin-bottom: 80px;
+    }
+    #headerFromUsSlider .slide > .row {
+      flex-grow: 1;
+    }
+  }

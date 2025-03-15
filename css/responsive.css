@@ -1,0 +1,1123 @@
+@media (min-width: 992px) {
+  .container {
+    max-width: 920px;
+  }
+
+  .specificBlogMainWrapper .insightTagDate .insightDate {
+    display: inline-block !important;
+  }
+
+  .specificBlogMainWrapper .insightDate.responsiveInsightDate {
+    display: none !important;
+  }
+
+  .navbar .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1120px;
+  }
+
+  .navbar .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  section h3 {
+    /* max-width: 77%; */
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .navbar .container-fluid {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .navbar .container-fluid.megaMenuWrapper {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media (max-width: 991px) {
+  .ourExpertiseSection {
+    padding: 90px 0;
+  }
+
+  .expertDataWrap h4 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .linkedIn i {
+    font-size: 30px;
+  }
+
+  .formSection {
+    width: 50%;
+    margin-left: 28px;
+  }
+
+  .leftSideContent h4 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .expertsSection {
+    padding: 90px 0 40px;
+  }
+
+  .expertDataWrap img {
+    width: 100%;
+  }
+
+  .insightsListSection .insightDate {
+    display: none !important;
+  }
+
+  .insightsListWrapper p {
+    margin-bottom: 20px;
+    min-height: 50px;
+  }
+  .whatsNewInfoWrap p,
+  header .megaMenuWrapper .linkwithIcon {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .whatsNewInfoWrap p {
+    margin-bottom: 16px;
+    min-height: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .accordion-button {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hs-form-booleancheckbox .hs-form-booleancheckbox-display input {
+ 	height: 18px;
+	box-shadow: none !important;  
+  }	
+  .insightsItemWrap .insightDateResponsive {
+    margin-left: 32px;
+  }
+
+  .specificBlogMainWrapper .insightTagDate .insightDate {
+    display: none;
+  }
+
+  .ourExpertiseSection h6,
+  .ourExpertiseSection p,
+  .ourExpertiseSection p a {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: center;
+    max-width: calc(100% - 100px);
+  }
+
+  .servicesDetailsWrapper {
+    padding-top: 62px;
+  }
+
+  .accordion-item {
+    padding: 24px 0;
+  }
+
+  .servicesDetailThumbnail {
+    margin-right: 62px;
+  }
+
+  .bannerSection h1 {
+    /* max-width: 96%; */
+    font-size: 62px;
+    line-height: 75px;
+  }
+
+  .bannerSection {
+    /* height: calc(100vh - 100px);
+    min-height: 360px; */
+  }
+
+  .insightsListWrapper .linkwithIcon {
+    bottom: 0;
+  }
+
+  .insightsItemWrap .insightDateResponsive {
+    display: block !important;
+    position: absolute;
+    bottom: 36px;
+    margin-left: 32px;
+    margin-bottom: 0;
+  }
+
+  .caseStudyListItem h4 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .caseStudyListItem p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .insightsItemWrap .insightDateResponsive {
+    margin-left: 32px;
+  }
+
+  .insightsListSection .insightTagDate .insightDate {
+    display: none !important;
+  }
+
+  .formSection {
+    width: 50%;
+  }
+
+  .contactUsSection {
+    padding-bottom: 100px;
+  }
+
+  .bannerSection h1 {
+    /* max-width: 90%; */
+    font-size: 62px;
+    line-height: 75px;
+  }
+
+  .ourExpertiseSection {
+    padding: 90px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .insightsItemWrap {
+    padding-bottom: 54px;
+  }
+
+  .servicesDetailThumbnail {
+    padding: 24px;
+  }
+
+  .insightsListSection.insightsListWrapper
+    .insightsItemWrap
+    .insightDateResponsive {
+    bottom: 36px;
+    position: absolute !important;
+  }
+  header {
+    padding: 0;
+    height: 72px;
+  }
+
+  .navbar {
+    padding-top: 16px;
+    padding-bottom: 15px;
+    max-height: 100vh;
+    overflow: auto;
+  }
+
+  .nav-down.hover .navbar {
+    background: #220047;
+  }
+
+  .mobileRight {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobileRight .btn {
+    margin-right: 16px;
+  }
+
+  .navbar-toggler {
+    height: 32px;
+    width: 32px;
+    padding: 0;
+  }
+
+  .collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+  }
+
+  .flexWrapCenterElement {
+    flex-direction: column;
+    display: flex;
+
+    align-items: center;
+  }
+
+  .flexWrapCenterElement li {
+    width: 100%;
+  }
+
+  .megaMenuWrapper {
+    position: static;
+  }
+
+  .navbar-toggler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-collapse {
+    /* margin-top: 20px; */
+    padding-top: 51px;
+    max-height: calc(100vh - 72px);
+    overflow: auto;
+    width: 100vw;
+    flex-basis: unset;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* .nav-down .navigation {
+    margin-top: 20px;
+  } */
+  ul.menuListWrapper {
+    border: none;
+  }
+  ul.menuListWrapper > li {
+    margin-right: 0;
+  }
+  header .socialMediaIconsWrap li:first-of-type a {
+    margin-left: 0;
+  }
+  header .linkwithIcon {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .linkwithIcon i {
+    margin-left: 8px;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-toggler .icon {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .megaMenuWrapper {
+    opacity: 0;
+    padding: 0;
+    padding-top: 0;
+    width: 100%;
+    max-height: 0px;
+    display: block;
+    transition: all 0.75s;
+    transition-timing-function: ease-in-out;
+    overflow: hidden;
+  }
+
+  .navbar .container-fluid.megaMenuWrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .active .megaMenuWrapper {
+    padding: 0;
+    max-height: 1000px;
+    transition: all 1s;
+    opacity: 1;
+    padding-top: 32px;
+  }
+
+  .megaMenuWrapper .sectionTitle {
+    margin-bottom: 29px;
+  }
+
+  .menuListWrapper > li {
+    padding: 20px 0;
+  }
+  .megaMenuWrapper .mobNoTitle .sectionTitle {
+    display: none;
+  }
+  .navbar-toggler .icon-expandIcon {
+    transform: rotate(45deg);
+  }
+
+  .navbar-toggler .icon-hamburger,
+  .navbar-toggler .icon-expandIcon {
+    transition: all 0.5s;
+  }
+
+  .navbar-toggler .icon-hamburger {
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+
+  .navbar-toggler.collapsed .icon-expandIcon {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+
+  .navbar-toggler.collapsed .icon-hamburger {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  .whatsNew {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+  .megaMenuWrapper section {
+    border-bottom: 1px solid rgba(134, 162, 162, 0.2);
+    padding-top: 32px;
+  }
+  .megaMenuWrapper section:last-of-type {
+    border-bottom: none;
+  }
+  .megaMenuWrapper section ul {
+    margin-bottom: 8px;
+  }
+  .active .megaMenuWrapper {
+    padding-top: 8px;
+  }
+  .searchContactUsWrap {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 40px;
+  }
+  .searchContactUsWrap .title {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+  .searchContactUsWrap form {
+    margin: 0;
+    display: none;
+  }
+  .searchContactUsWrap.active form {
+    display: block;
+  }
+  ul.menuListWrapper > li > a {
+    overflow: visible;
+  }
+}
+
+@media (max-width: 1199px) {
+  footer .input,
+  footer .hs-form-field input,
+  footer form .hs-fieldtype-text:first-child {
+    width: 100%;
+  }
+  .searchResultWrap .customRow .customTh:nth-child(2),
+  .searchResultWrap .customRow .customTd:nth-child(2) {
+    width: auto;
+  }
+  .eventItemWrap .eventDateIconWrap .date .time {
+    margin-top: 1px;
+  }
+  .eventItemWrap .eventDateIconWrap .place {
+    font-size: 10px;
+    line-height: 12px; /* 133.333% */
+  }
+  .eventItemWrap .eventDateIconWrap .date {
+    font-size: 19px;
+    line-height: 27px;
+  }
+  .eventItemWrap .eventDateIconWrap .boxLeft {
+    padding: 16px 19px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hubspotBanner {
+    min-height: 375px;
+  }
+  .responsive-iframe {
+    min-width: unset !important;
+  }
+  .locationsWrap {
+    margin-top: 80px;
+  }
+
+  .footerContentWrap {
+    margin-bottom: 40px;
+  }
+
+  .moreMenuWrap ul {
+    column-count: 2;
+  }
+  .megaMenuWrapper .col-4 {
+    padding-left: 12px;
+  }
+  .iframeMainWrapper header .headerBg {
+    min-height: 72px;
+  }
+  .searchResultWrap .customTd h6 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .bannerSection h1 br {
+    display: none;
+  }
+  .bannerSection h1 br.mob {
+    display: block;
+  }
+  .leaderBanner {
+    padding: 100px 0 64px;
+  }
+  .right-news-image {
+    padding-left: 0px;
+    margin: 0 auto 30px;
+  }
+  .articleContent {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .submitted-message {
+    font-size: 18px;
+  }
+  .autoplay button {
+    bottom: -105px;
+    left: -27px;
+  }
+  .autoplay .slick-next {
+    left: 14px !important;
+  }
+  .slick-slider {
+    padding-bottom: 0;
+  }
+ .slick-dots {
+    bottom: 10px;
+  }
+  .moreMenuWrap {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .expertsSection .expertsDetailsWrap .autoplay button.slick-next {
+    left: 50px !important;
+  }
+  .specificBlogMainWrapper .insightDate.responsiveInsightDate {
+    display: none !important;
+  }
+
+  .insightsListSection.insightsListWrapper .linkwithIcon {
+    position: absolute !important;
+    bottom: 0;
+  }
+
+  .insightsListSection.insightsListWrapper
+    .insightsItemWrap
+    .insightDateResponsive {
+    bottom: 36px;
+    position: absolute !important;
+  }
+
+  header li:last-child a {
+    border-right: 0 !important;
+  }
+
+  header .icon-youtube:before {
+    font-size: 26px;
+  }
+
+  header .icon-linkedInInc:before {
+    font-size: 28px;
+  }
+
+  .insightsItemWrap .insightDateResponsive {
+    display: block !important;
+    position: relative;
+  }
+
+  .locationsWrap {
+    margin-top: 0;
+  }
+
+  .locationsWrap ul {
+    column-count: 2;
+  }
+
+  .footerContentWrap {
+    margin-bottom: 50px;
+  }
+
+  .addressContent {
+    margin-bottom: 32px;
+  }
+  /* }
+
+@media(max-width:576px) { */
+  .bannerSection h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .specificBlogMainWrapper .bannerSection h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  footer {
+    padding: 56px 0 20px;
+  }
+
+  .expertDataWrap h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .expertDataWrap h5 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .addressContent {
+    margin-right: 0px;
+  }
+
+  .addressContent:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .logoWrap img {
+    max-width: 289px;
+  }
+
+  .copyRightsocialMediaWrap {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+  }
+
+  .socialMediaIconsWrap li a {
+    margin-left: 0;
+    margin-right: 24px;
+  }
+  /* }
+
+@media (max-width: 767px) { */
+
+  .container,
+  .container-sm {
+    max-width: 100%;
+  }
+
+  .bannerSection h1 {
+    font-size: 48px;
+    line-height: 56.45px;
+    text-align: center;
+    margin-left: -4px;
+  }
+
+  .insightsListSection .insightDate {
+    margin-left: 32px;
+  }
+
+  .bannerSection {
+    min-height: calc(100vh - 110px);
+    padding: 82px 0 92px;
+  }
+  .bannerSection.hubspotBanner {
+    height: 375px;
+    min-height: unset;
+    padding: 92px 0 20px;
+  }
+
+  .contactUsSection form {
+    margin-top: 56px;
+  }
+
+  .accordion-collapse {
+    max-width: 100% !important;
+  }
+
+  .accordion-item {
+    padding: 24px 0;
+  }
+
+  .accordion-button {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .insightsListSection {
+    padding: 56px 0 104px;
+  }
+
+  .insightsListSection .sectionHeader {
+    display: block;
+  }
+  .insightsListSection .sectionHeader .btn {
+    min-width: 80px;
+    flex-shrink: 0;
+  }
+
+  .scrollDownWrap {
+    bottom: 32px;
+  }
+
+  .ourExpertiseSection {
+    padding: 96px 0 96px;
+  }
+
+  .ourExpertiseSection h6,
+  .ourExpertiseSection p,
+  .ourExpertiseSection p a {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .servicesDetailThumbnail {
+    max-width: 100%;
+    height: auto;
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 40px 50px;
+  }
+
+  .servicesDetailThumbnail img {
+    width: 100%;
+  }
+
+  .serviceContentWrapper,
+  .formSection,
+  .contactUsSection .leftSideContent {
+    width: 100%;
+  }
+
+  .formSection {
+    margin-left: 0;
+  }
+
+  .servicesDetailsWrapper,
+  .contactUsSection .container {
+    display: block;
+  }
+
+  .caseStudiesSection {
+    padding: 96px 0 96px;
+  }
+
+  .caseStudyListWrapper,
+  .insightsContainer {
+    display: flex;
+    overflow-x: auto;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+    flex-wrap: nowrap;
+    position: relative;
+  }
+  .glanceWrap .insightsContainer {
+    margin-right: calc(var(--bs-gutter-x) * -0.5);
+    margin-left: calc(var(--bs-gutter-x) * -0.5);
+  }
+  .rightPurpleHover,
+  .rightWhiteHover {
+    position: relative;
+  }
+  .rightPurpleHover::after,
+  .rightWhiteHover::after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    pointer-events: none;
+    top: 0;
+    width: 76px;
+    height: 84%;
+    background: linear-gradient(270deg, #220047 0%, rgba(34, 0, 71, 0) 68.18%);
+  }
+  .rightWhiteHover::after {
+    background: linear-gradient(
+      270deg,
+      rgba(228, 234, 234, 0.9) 0%,
+      rgba(228, 234, 234, 0) 68.18%
+    );
+    height: 100%;
+    width: 66px;
+  }
+  .insightsContainer .insightsItemWrap:first-of-type,
+  .caseStudyListWrapper .caseStudyItemWrap:first-of-type {
+    padding-left: 20px;
+  }
+  .insightsContainer .insightsItemWrap:last-of-type,
+  .caseStudyListWrapper .caseStudyItemWrap:last-of-type {
+    padding-right: 20px;
+  }
+
+  .caseStudyListWrapper .linkwithIcon {
+    /* position: initial; */
+  }
+
+  .caseStudyListItem h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+
+  .caseStudyListItem img {
+    width: 100%;
+  }
+
+  .caseStudyListWrapper .col-md-4,
+  .insightsListSection .col-md-4 {
+    /* min-height: 550px; */
+    /* width: 77%; */
+    width: 228px;
+    box-sizing: content-box;
+    padding: 0 8px;
+    padding-bottom: 18px;
+  }
+  .insightsListSection .col-md-4 {
+    padding-bottom: 54px;
+  }
+
+  .insightsListSection.glanceWrap .col-md-4 {
+    padding-bottom: 0;
+  }
+
+  .insightsListWrapper .col-md-4 {
+    /* min-height: 410px !important; */
+  }
+
+  .insightsListWrapper .linkwithIcon,
+  .caseStudyListWrapper .linkwithIcon {
+    /* position: initial; */
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .caseStudyListWrapper,
+  .insightsContainer {
+    margin-top: 40px;
+  }
+
+  .insightsListWrapper .leftSideContent h4,
+  .caseStudiesSection .leftSideContent h4 {
+    font-size: 30px;
+    margin-right: 20px;
+    line-height: 36px;
+  }
+
+  .expertsSection {
+    padding: 68px 0 104px;
+  }
+
+  .leftSideContent h4 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  section h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .sectionDescription {
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .genAISecion {
+    height: 474px;
+    padding: 20px 0;
+  }
+
+  .accordianHeader {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .contactUsSection {
+    padding: 56px 0 64px;
+  }
+
+  form .hs-fieldtype-text:first-child,
+  form .hs-fieldtype-text:nth-child(2) {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    max-width: inherit;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .megaMenuWrapper {
+    position: static;
+  }
+  .bgpeachHearUs .authorName > .d-flex {
+    justify-content: space-between;
+  }
+  .searchResultWrap .customTd h6 {
+    margin-bottom: 24px;
+  }
+  .searchResultWrap .customRow .customTd:nth-child(2) {
+    width: 100%;
+    padding: 0;
+  }
+  .responsiveBlogDetails {
+    justify-content: space-between;
+  }
+  .searchResultWrap.tableContentSection {
+    padding: 35px 0;
+  }
+  .bannerSection.searchBanner {
+    padding: 150px 0 54px;
+    /* background: #220047;
+    color: #fff;
+    min-height: unset; */
+  }
+  .searchPageFormWrap {
+    margin-bottom: 30px;
+  }
+  .searchPageFormWrap form input.search {
+    font-size: 24px;
+    line-height: 30px;
+    padding: 10px 30px 9px;
+  }
+  .searchIcon {
+    right: 18px;
+    top: 10px;
+  }
+  .searchIcon svg {
+    width: 24px;
+  }
+  .bannerSection.searchBanner h1 {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+  }
+  .bannerSection.leaderBanner {
+    padding: 88px 0 64px;
+  }
+  .leaderBanner img.img-fluid {
+    width: 100%;
+    max-width: 437px;
+    margin-bottom: 32px;
+  }
+  .leaderBanner h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px;
+    margin-bottom: 8px;
+  }
+  .leaderBanner h5 {
+    margin-bottom: 16px;
+  }
+
+  .leaderBanner .expertInfoWrapper {
+    flex-direction: column;
+  }
+  .leaderBanner .expertInfoWrapper .linkedIn {
+    margin: 0;
+  }
+  .leaderBanner .expertInfoWrapper .linkedIn i {
+    font-size: 40px;
+  }
+  .leaderBanner .expertInfoWrapper {
+    margin-bottom: 32px;
+  }
+  .leaderBanner h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .purpleBg .bannerSection.eventListingBanner {
+    padding: 96px 0 48px;
+  }
+  .allListingsWrap {
+    padding: 64px 0;
+  }
+  .eventListingWrap .allListingsWrap h3 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+  }
+  .eventListingWrap .allListingsWrap h4 {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 8px;
+    height: auto !important;
+  }
+  .eventListingWrap .allListingsWrap p {
+    line-height: 23px;
+  }
+  .eventSliderWrap {
+    margin-bottom: 40px;
+  }
+  .allListingsWrap .listingWrap .eventItemWrap {
+    margin-bottom: 48px;
+  }
+  .videoSection.careerVideoSection {
+    margin-top: 0;
+    padding: 40px 0 80px;
+  }
+  .videoSection h4 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 8px;
+  }
+  .videoSection p {
+    line-height: 24px;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .linkwithIcon:hover {
+    color: #220047;
+  }
+
+  .purpleSection .linkwithIcon:hover,
+  .purpleSection .linkwithIcon:hover i:before {
+    color: #ffa191;
+  }
+
+  .menuListWrapper .linkwithIcon:hover,
+  .menuListWrapper .linkwithIcon:hover i::before {
+    color: #ffa191 !important;
+    opacity: 1;
+    border-color: #fff;
+  }
+  .menuListWrapper li:hover > a i {
+    transform: rotate(180deg);
+    margin-top: 4px;
+  }
+
+  .slick-prev:hover,
+  .slick-next:hover {
+    background-color: #ffa191 !important;
+  }
+  .diversitySecondVideo .slick-prev:hover,
+  .diversitySecondVideo .slick-next:hover {
+    background-color: #c9def4 !important;
+  }
+  .viewCareersBtn:hover {
+    background-color: #f95b66 !important;
+    color: #220047 !important;
+  }
+  .scrollDownWrap:hover {
+    background-color: #ffa191;
+  }
+  .btn-primary:hover,
+  footer input[type="submit"]:hover {
+    background-color: #ffa191;
+    color: #191970;
+  }
+  .contactUsSection input[type="submit"]:hover,
+  .btn-secondary:hover {
+    background-color: #191970;
+    color: #fff;
+    transition: all 0.2s;
+  }
+  .expertDataWrap h4 a:hover {
+    color: #ffa191;
+  }
+}
+@media (orientation: portrait) and (max-width: 991px) {
+  .megaMenuWrapper section:first-of-type .sectionTitle {
+    display: none;
+  }
+  .Offerings .megaMenuWrapper .sectionTitle {
+    display: block !important;
+  }
+  .bannerSection .scrollDownWrap {
+    bottom: 35px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  ul.menuListWrapper > li {
+    margin-right: 22px;
+  }
+  header .linkwithIcon {
+    font-size: 14px;
+  }
+
+  .insightsListSection .insightDate.insightDateResponsive {
+    display: inline-block !important;
+  }
+
+  .insightsListSection.insightsListWrapper
+    .insightsItemWrap
+    .insightDateResponsive {
+    bottom: 36px;
+    position: absolute !important;
+  }
+
+  .insightsListWrapper .col-md-4 {
+    padding-bottom: 54px;
+    /* min-height: 410px !important; */
+  }
+
+  header .logoContainer svg {
+    width: 120px;
+  }
+
+  header .icon-searchIcon:before {
+    font-size: 20px;
+  }
+
+  header li:last-child a {
+    padding-right: 12px;
+  }
+
+  header .searchContactUsWrap form {
+    margin: 0 12px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 515px) {
+  .bannerSection h1 {
+    max-width: 100% !important;
+  }
+  .sectionDescription {
+    max-width: 87% !important;
+  }
+}
